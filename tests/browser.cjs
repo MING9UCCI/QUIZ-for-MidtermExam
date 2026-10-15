@@ -1,11 +1,12 @@
-const { chromium }=require('playwright');
+const { chromium,webkit,devices }=require('playwright');
+const engine=process.env.QUIZ_ENGINE||'chromium';
 const fs=require('fs');
 const assert=require('node:assert/strict');
 const bank=JSON.parse(fs.readFileSync(process.cwd()+'/assets/questions.json','utf8'));
 const byId=id=>bank.find(q=>q.id===id);
 (async()=>{
- const browser=await chromium.launch({...(process.env.QUIZ_BROWSER_PATH?{executablePath:process.env.QUIZ_BROWSER_PATH}:{}),headless:true});
- const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
+ const browser=await(engine==='webkit'?webkit:chromium).launch({...(engine==='chromium'&&process.env.QUIZ_BROWSER_PATH?{executablePath:process.env.QUIZ_BROWSER_PATH}:{}),headless:true});
+ const context=await browser.newContext({...devices['iPhone 17 Pro']});
  const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const state=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('midterm-quest-v1')));
  async function noOverflow(){assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'horizontal overflow');}

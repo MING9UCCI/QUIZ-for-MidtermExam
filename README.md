@@ -4,6 +4,20 @@
 
 **플레이 주소:** https://ming9ucci.github.io/QUIZ-for-MidtermExam/
 
+## 개념 모험 (v1.1)
+
+홈의 **개념 모험 시작**에서 짧은 개념 설명을 읽고 직접 조작하는 실습을 시작합니다. 암기 여부를 묻기 전에 원리가 어떻게 동작하는지 관찰하도록 구성했습니다. 제한 시간이나 실패 벌점은 없으며, 첫 완료에만 30 XP를 줍니다. 기존 퀴즈 진행은 별도로 보존합니다.
+
+| 과목 | 체험 스테이지 |
+|---|---|
+| 데이터베이스 | 행·열 필터로 SELECT/WHERE 관찰, 회원 등록으로 기본 키 제약 체험, INNER/LEFT JOIN 결과 비교 |
+| 인공지능 | K-NN 이웃 투표, K-means 배정·평균 중심 이동, 직선 조절과 평균제곱오차 관찰 |
+| 소프트웨어공학 | 개발 생명주기 조립, 산출물별 WBS 작업 분류, 고객 대화·명세·구현 비교로 확인/검증 구분 |
+
+실습의 작은 데이터와 시나리오는 직접 구성한 교육용 예시입니다. 실제 DBMS를 실행하거나 머신러닝 서비스를 호출하지 않습니다. 회귀 실습은 기울기·절편을 직접 조절하며 오차 감소를 체험하는 것으로 자동 경사하강법 구현은 아닙니다. 각 스테이지에 강의자료 파일명과 PDF 페이지가 있습니다.
+
+진행 중인 개념 모험은 조작할 때마다 기기에 저장되고, 다시 같은 스테이지에 들어가 이어갈 수 있습니다. 초기 퀴즈 버전에서 쌓은 경험치와 오답도 유지합니다.
+
 ## 플레이
 
 - 과목 → 챕터 → 유형(혼합·객관식·OX·단답형) → 10·20·전체 문제 선택
@@ -42,6 +56,10 @@
 
 현재 GitHub 연결에는 Actions workflow 파일을 추가하는 권한이 없어, 별도 workflow 없이 GitHub Pages의 브랜치 게시 기능을 사용합니다. 배포 전 검증은 로컬에서 `npm test`로 실행할 수 있습니다.
 
+## iPhone 17 Pro 대응
+
+노치·홈 인디케이터·가로 방향을 위한 안전 여백, 48px 중심의 터치 버튼, 입력 시 확대를 줄이는 16px 입력 글자를 적용했습니다. iPhone 17 Pro의 브라우저 화면 설정을 사용하여 Chromium과 WebKit에서 세로·가로 터치 조작을 검사했습니다. **브라우저 에뮬레이션이며 실제 iPhone에서의 수동 검증을 대체하지 않습니다.** 주소창·키보드·화면 확대 설정 등 기기 환경에 따라 실제 표시 영역은 달라집니다.
+
 ## 로컬 실행과 검증
 
 ```sh
@@ -52,13 +70,21 @@ npm test
 
 파일을 직접 열기보다 로컬 웹서버를 사용하세요. 문제 JSON을 불러오고 모듈을 실행해야 합니다. `npm test`는 Node.js 22 이상에서 외부 패키지 설치 없이 실행됩니다.
 
-브라우저 통합 검증은 개발용 Playwright를 사용합니다.
+네트워크 단절 검증(`test:offline`)은 자체 임시 서버에 대한 연결을 끊어 캐시 복구를 확인하며, 실행 후 서버를 종료합니다.
+
+브라우저 통합 검증은 개발용 Playwright를 사용합니다. `npm test`는 13개 검증 묶음으로 문제 데이터와 실습 계산·완료 조건을 확인합니다.
 
 ```sh
 npm install
-npx playwright install chromium
+npx playwright install chromium webkit
 # 다른 터미널에서 로컬 서버를 먼저 실행한 뒤:
 QUIZ_BASE_URL=http://localhost:4173 npm run test:browser
+QUIZ_BASE_URL=http://localhost:4173 npm run test:concepts
+QUIZ_BASE_URL=http://localhost:4173 npm run test:offline
+# Safari 계열 엔진으로 검사:
+QUIZ_ENGINE=webkit QUIZ_BASE_URL=http://localhost:4173 npm run test:browser
+QUIZ_ENGINE=webkit QUIZ_BASE_URL=http://localhost:4173 npm run test:concepts
+QUIZ_ENGINE=webkit QUIZ_BASE_URL=http://localhost:4173 npm run test:offline
 ```
 
 이미 설치된 Chrome을 쓰려면 `QUIZ_BROWSER_PATH`에 실행 파일 경로를 지정하세요. 브라우저 검증은 320~1280px 화면, 세 과목·네 문제 유형, 셔플 채점, 직접 채점 절차, 점수·경험치, 오답 재도전, 이어하기, 시간 초과를 확인합니다.
@@ -67,6 +93,7 @@ QUIZ_BASE_URL=http://localhost:4173 npm run test:browser
 
 - `index.html`, `style.css`, `app.js`: 화면과 게임 흐름
 - `engine.js`: 무작위 출제·선택지 셔플·객관식 채점
+- `lessons.js`, `lesson-engine.js`: 9개 기초 실습의 화면·계산·진행 조건
 - `assets/questions.json`: 문항·정답·해설·출처 (수정 후 `npm test` 실행)
 - `sw.js`, `manifest.webmanifest`: 오프라인 캐시·홈 화면 실행 정보
 - `tests/`: 문제 데이터·채점 및 브라우저 통합 검증
