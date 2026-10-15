@@ -1,0 +1,2062 @@
+[
+  {
+    "id": "db-001",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 2,
+    "type": "mc",
+    "question": "관찰이나 측정을 통해 수집한 사실이나 값은 무엇인가요?",
+    "answer": "데이터",
+    "options": [
+      "데이터",
+      "스키마",
+      "정보",
+      "프로세스"
+    ],
+    "explanation": "데이터는 수집한 사실이나 값이며, 정보는 의사 결정에 도움이 되도록 의미를 부여한 지식입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-002",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 4,
+    "type": "mc",
+    "question": "데이터베이스의 정의에 해당하지 않는 것은?",
+    "answer": "개인 프로그램만 독점하는 데이터",
+    "options": [
+      "개인 프로그램만 독점하는 데이터",
+      "통합 데이터",
+      "저장 데이터",
+      "운영 데이터"
+    ],
+    "explanation": "데이터베이스는 여러 응용 시스템이 공용하도록 통합·저장한 운영 데이터의 집합입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-003",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 5,
+    "type": "ox",
+    "question": "데이터베이스는 저장 주소보다 데이터의 내용을 기준으로 접근합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "내용에 의한 참조는 데이터베이스의 주요 특성입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-004",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 5,
+    "type": "short",
+    "question": "여러 사용자가 동시에 데이터에 접근하고 이용하는 특성은?",
+    "answer": "동시 공유성 / 동시공유성",
+    "options": [],
+    "explanation": "실시간 접근성, 지속적 변화성, 내용에 의한 참조, 동시 공유성을 구분해 보세요.",
+    "aliases": [
+      "동시 공유성",
+      "동시공유성"
+    ]
+  },
+  {
+    "id": "db-005",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "파일 구조 변경으로 응용 프로그램도 함께 수정해야 하는 문제는?",
+    "answer": "데이터 종속성",
+    "options": [
+      "데이터 종속성",
+      "데이터 독립성",
+      "동시 공유성",
+      "추적성"
+    ],
+    "explanation": "데이터 종속성은 데이터 구성이나 접근 방법의 변경이 프로그램 변경으로 이어지는 현상입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-006",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 15,
+    "type": "short",
+    "question": "응용 프로그램과 데이터 사이에서 공용 데이터 관리를 중재하는 시스템의 약자는?",
+    "answer": "DBMS",
+    "options": [],
+    "explanation": "DBMS(데이터베이스 관리 시스템)는 여러 응용 프로그램이 데이터를 함께 이용하도록 관리합니다.",
+    "aliases": [
+      "DBMS"
+    ]
+  },
+  {
+    "id": "db-007",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 16,
+    "type": "mc",
+    "question": "스키마를 정의하고 수정하는 언어는?",
+    "answer": "DDL",
+    "options": [
+      "DDL",
+      "DML",
+      "DCL",
+      "HTML"
+    ],
+    "explanation": "DDL(데이터 정의어)은 구조 정의, DML은 검색·삽입·삭제·변경, DCL은 제어를 담당합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-008",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 21,
+    "type": "mc",
+    "question": "사용자별 관점의 데이터베이스를 정의하며 여러 개 존재할 수 있는 것은?",
+    "answer": "외부 스키마",
+    "options": [
+      "외부 스키마",
+      "개념 스키마",
+      "내부 스키마",
+      "저장 레코드"
+    ],
+    "explanation": "외부 스키마는 개인 또는 응용 프로그램 관점의 정의입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-009",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 21,
+    "type": "ox",
+    "question": "개념 스키마는 범기관적 관점의 전체 데이터베이스 정의입니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "개념 스키마는 전체의 논리적 구조를 정의하며 하나 존재합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-010",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 21,
+    "type": "mc",
+    "question": "레코드 저장 형식과 인덱스 등 물리적 저장 방법을 명세하는 것은?",
+    "answer": "내부 스키마",
+    "options": [
+      "내부 스키마",
+      "외부 스키마",
+      "개념 스키마",
+      "사용자 뷰"
+    ],
+    "explanation": "내부 스키마는 저장 장치의 관점에서 데이터가 저장되는 방법을 기술합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-011",
+    "subject": "db",
+    "chapter": "데이터베이스 기초",
+    "source": "데이터베이스_교안.pdf",
+    "page": 27,
+    "type": "mc",
+    "question": "보안 정책, 백업·회복 절차, 데이터 사전 유지 관리의 책임자는?",
+    "answer": "DBA",
+    "options": [
+      "DBA",
+      "컴파일러",
+      "일반 사용자",
+      "브라우저"
+    ],
+    "explanation": "DBA(데이터베이스 관리자)는 데이터베이스 설계와 관리 운영을 책임집니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-012",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 31,
+    "type": "short",
+    "question": "한 속성이 취할 수 있는 값들의 집합을 무엇이라고 하나요?",
+    "answer": "도메인 / domain",
+    "options": [],
+    "explanation": "예를 들어 학년 속성의 도메인을 1, 2, 3, 4로 정할 수 있습니다.",
+    "aliases": [
+      "도메인",
+      "domain"
+    ]
+  },
+  {
+    "id": "db-013",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 36,
+    "type": "mc",
+    "question": "속성이 4개, 투플이 7개인 릴레이션의 차수와 카디널리티는?",
+    "answer": "차수 4, 카디널리티 7",
+    "options": [
+      "차수 4, 카디널리티 7",
+      "차수 7, 카디널리티 4",
+      "둘 다 4",
+      "둘 다 7"
+    ],
+    "explanation": "차수(degree)는 속성 수, 카디널리티(cardinality)는 투플(행) 수입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-014",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 37,
+    "type": "ox",
+    "question": "이론적 릴레이션에서는 투플의 순서가 의미를 가집니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "릴레이션은 집합이므로 투플이 유일하며 투플의 순서에는 의미가 없습니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-015",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 43,
+    "type": "mc",
+    "question": "후보 키가 반드시 만족해야 하는 두 성질은?",
+    "answer": "유일성과 최소성",
+    "options": [
+      "유일성과 최소성",
+      "연속성과 최소성",
+      "중복성과 유일성",
+      "순서성과 원자성"
+    ],
+    "explanation": "유일성은 행을 구별하는 성질이고, 최소성은 불필요한 속성을 포함하지 않는 성질입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-016",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 44,
+    "type": "short",
+    "question": "후보 키 중 기본 키로 선택되지 않은 나머지 키는?",
+    "answer": "대체 키 / 대체키 / alternate key",
+    "options": [],
+    "explanation": "기본 키는 설계자가 선택한 후보 키이며, 나머지 후보 키는 대체 키입니다.",
+    "aliases": [
+      "대체 키",
+      "대체키",
+      "alternate key"
+    ]
+  },
+  {
+    "id": "db-017",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 47,
+    "type": "ox",
+    "question": "기본 키에는 아직 모르는 값이라는 의미로 NULL을 넣을 수 있습니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "개체 무결성은 기본 키가 NULL이 될 수 없다는 제약입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-018",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 45,
+    "type": "ox",
+    "question": "외래 키는 같은 릴레이션의 기본 키를 참조할 수도 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "상사 번호가 같은 직원 테이블의 직원 번호를 참조하는 자기 참조가 가능합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-019",
+    "subject": "db",
+    "chapter": "관계 모델과 키",
+    "source": "데이터베이스_교안.pdf",
+    "page": 47,
+    "type": "mc",
+    "question": "외래 키 값이 참조하는 기본 키에 존재하는 값이거나 NULL이어야 한다는 제약은?",
+    "answer": "참조 무결성",
+    "options": [
+      "참조 무결성",
+      "개체 무결성",
+      "최소성",
+      "원자성"
+    ],
+    "explanation": "참조 무결성은 테이블 사이 참조 관계의 일관성을 유지합니다. 별도 NOT NULL 제약이 있으면 NULL은 허용되지 않습니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-020",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 50,
+    "type": "mc",
+    "question": "원하는 결과와 함께 구하는 절차를 표현하는 관계 언어는?",
+    "answer": "관계 대수",
+    "options": [
+      "관계 대수",
+      "관계 해석",
+      "자연어",
+      "도메인 정의"
+    ],
+    "explanation": "관계 대수는 절차적 언어이고, 관계 해석은 무엇을 구할지 표현하는 비절차적 언어입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-021",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 52,
+    "type": "short",
+    "question": "관계 연산의 입력과 결과가 모두 릴레이션인 성질은?",
+    "answer": "폐쇄 성질 / 폐쇄성 / closure",
+    "options": [],
+    "explanation": "이 성질 덕분에 연산 결과에 다시 관계 연산을 적용할 수 있습니다.",
+    "aliases": [
+      "폐쇄 성질",
+      "폐쇄성",
+      "closure"
+    ]
+  },
+  {
+    "id": "db-022",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 52,
+    "type": "mc",
+    "question": "투플 수가 각각 3개와 4개인 릴레이션의 카티션 프로덕트 투플 수는?",
+    "answer": "12개",
+    "options": [
+      "12개",
+      "7개",
+      "3개",
+      "4개"
+    ],
+    "explanation": "카티션 프로덕트(가능한 모든 행의 조합)의 투플 수는 3 × 4 = 12입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-023",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 55,
+    "type": "mc",
+    "question": "σ 학과='컴퓨터'(학생)은 어떤 작업인가요?",
+    "answer": "조건에 맞는 행 선택",
+    "options": [
+      "조건에 맞는 행 선택",
+      "학과 열만 추출",
+      "두 테이블 결합",
+      "학생 테이블 삭제"
+    ],
+    "explanation": "실렉트(σ)는 조건을 만족하는 수평적 부분집합, 즉 행을 선택합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-024",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 57,
+    "type": "ox",
+    "question": "관계 대수의 프로젝트(Π) 연산은 결과의 중복 투플을 제거합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "프로젝트는 원하는 열을 추출하고, 집합의 성질에 따라 중복 행을 제거합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-025",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 61,
+    "type": "mc",
+    "question": "자연조인은 동일조인 결과에서 무엇을 제거하나요?",
+    "answer": "공통 조인 속성의 중복 열",
+    "options": [
+      "공통 조인 속성의 중복 열",
+      "조건에 맞는 모든 행",
+      "모든 NULL 행",
+      "기본 키 전체"
+    ],
+    "explanation": "공통 속성의 값이 같은 행을 연결하고 공통 속성은 한 번만 표시합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-026",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 63,
+    "type": "mc",
+    "question": "지정된 모든 과목을 수강한 학생을 찾기에 적합한 관계 연산은?",
+    "answer": "디비전(÷)",
+    "options": [
+      "디비전(÷)",
+      "프로젝트(Π)만 사용",
+      "합집합(∪)",
+      "차집합(-)만 사용"
+    ],
+    "explanation": "디비전은 제수 릴레이션의 모든 값과 관계를 갖는 대상을 찾습니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-027",
+    "subject": "db",
+    "chapter": "관계 대수",
+    "source": "데이터베이스_교안.pdf",
+    "page": 67,
+    "type": "ox",
+    "question": "외부조인은 대응되는 행이 없는 데이터를 NULL로 보완해 결과에 포함할 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "외부조인(outer join)은 매칭되지 않은 행도 보존합니다. 보존하는 방향에 따라 종류가 나뉩니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-028",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 79,
+    "type": "mc",
+    "question": "기존 테이블에 열을 추가할 때 사용하는 명령은?",
+    "answer": "ALTER TABLE",
+    "options": [
+      "ALTER TABLE",
+      "CREATE VIEW",
+      "DROP TABLE",
+      "DELETE FROM"
+    ],
+    "explanation": "ALTER TABLE은 기존 테이블 구조를 변경하는 DDL입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-029",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 82,
+    "type": "short",
+    "question": "SELECT 결과에서 중복 행을 제거하는 키워드는?",
+    "answer": "DISTINCT",
+    "options": [],
+    "explanation": "SELECT DISTINCT Dept FROM STUDENT는 중복되지 않는 학과 값을 검색합니다.",
+    "aliases": [
+      "DISTINCT"
+    ]
+  },
+  {
+    "id": "db-030",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 83,
+    "type": "mc",
+    "question": "점수를 높은 순서부터 정렬하는 절은?",
+    "answer": "ORDER BY 점수 DESC",
+    "options": [
+      "ORDER BY 점수 DESC",
+      "ORDER BY 점수 ASC",
+      "GROUP BY 점수",
+      "HAVING 점수"
+    ],
+    "explanation": "DESC는 내림차순, ASC는 오름차순입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-031",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 86,
+    "type": "mc",
+    "question": "전체 행 수를 세는 집계식은?",
+    "answer": "COUNT(*)",
+    "options": [
+      "COUNT(*)",
+      "SUM(*)",
+      "AVG(*)",
+      "MAX(*)"
+    ],
+    "explanation": "COUNT(*)는 행 수를 셉니다. SUM·AVG·MAX는 각각 합계·평균·최댓값입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-032",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 87,
+    "type": "mc",
+    "question": "GROUP BY로 만든 그룹에 조건을 적용하는 절은?",
+    "answer": "HAVING",
+    "options": [
+      "HAVING",
+      "WHERE",
+      "ORDER BY",
+      "VALUES"
+    ],
+    "explanation": "WHERE는 그룹화 전 행에, HAVING은 그룹화 결과에 조건을 적용합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-033",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 88,
+    "type": "ox",
+    "question": "부속 질의문은 다른 질의 안에 중첩해서 사용할 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "부속 질의문(subquery)은 다른 질의문에 포함된 SELECT문입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-034",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 90,
+    "type": "mc",
+    "question": "EXISTS(부속 질의문)이 참이 되는 조건은?",
+    "answer": "부속 질의 결과에 행이 하나 이상 있음",
+    "options": [
+      "부속 질의 결과에 행이 하나 이상 있음",
+      "결과가 반드시 한 행임",
+      "결과가 공집합임",
+      "결과가 모두 NULL임"
+    ],
+    "explanation": "EXISTS는 결과 행의 존재 여부를 확인합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-035",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 91,
+    "type": "ox",
+    "question": "SQL의 UNION은 중복 행을 제거합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "UNION은 중복을 제거하며, 중복을 유지하는 UNION ALL과 구분합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-036",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 92,
+    "type": "mc",
+    "question": "UPDATE STUDENT SET Year=2 WHERE Sno=300;의 의미는?",
+    "answer": "학번 300인 학생의 학년을 2로 변경",
+    "options": [
+      "학번 300인 학생의 학년을 2로 변경",
+      "학생 300명 추가",
+      "모든 학생 삭제",
+      "테이블에 열 추가"
+    ],
+    "explanation": "UPDATE는 행의 값을 변경합니다. WHERE가 변경 대상을 제한합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-037",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 96,
+    "type": "ox",
+    "question": "DELETE FROM ENROL;은 ENROL 테이블의 구조까지 삭제합니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "WHERE 없는 DELETE는 모든 행을 삭제합니다. 테이블 구조를 제거하는 명령은 DROP TABLE입니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-038",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 98,
+    "type": "short",
+    "question": "기본 테이블로부터 유도되는 가상 테이블은 무엇인가요?",
+    "answer": "뷰 / view",
+    "options": [],
+    "explanation": "일반적인 뷰는 질의의 정의를 저장하여 기본 테이블을 다양한 관점으로 보여줍니다.",
+    "aliases": [
+      "뷰",
+      "view"
+    ]
+  },
+  {
+    "id": "db-039",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 99,
+    "type": "mc",
+    "question": "뷰를 통한 삽입·갱신이 뷰의 조건을 만족하게 하는 옵션은?",
+    "answer": "WITH CHECK OPTION",
+    "options": [
+      "WITH CHECK OPTION",
+      "ORDER BY",
+      "ON DELETE CASCADE",
+      "DISTINCT"
+    ],
+    "explanation": "WITH CHECK OPTION은 뷰를 통해 입력·변경한 행이 뷰의 검색 조건을 만족하도록 검사합니다.",
+    "aliases": []
+  },
+  {
+    "id": "db-040",
+    "subject": "db",
+    "chapter": "SQL",
+    "source": "데이터베이스_교안.pdf",
+    "page": 104,
+    "type": "ox",
+    "question": "강의에서 집계 함수와 GROUP BY를 사용하는 뷰는 갱신이 제한되는 사례입니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "집계 결과의 변경을 어떤 원본 행의 변경으로 반영할지 직접 결정하기 어렵기 때문입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-001",
+    "subject": "ai",
+    "chapter": "Ch.2 머신러닝 기초",
+    "source": "Chapter 2_Basic of ML.pdf",
+    "page": 5,
+    "type": "ox",
+    "question": "머신러닝은 인공지능에 포함되는 분야입니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "인공지능은 추론·계획·학습 등을 포함하는 상위 개념이며 머신러닝은 그 일부입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-002",
+    "subject": "ai",
+    "chapter": "Ch.2 머신러닝 기초",
+    "source": "Chapter 2_Basic of ML.pdf",
+    "page": 4,
+    "type": "mc",
+    "question": "강의에서 지도학습을 전통적 프로그래밍과 비교한 설명으로 맞는 것은?",
+    "answer": "데이터와 정답으로 규칙을 학습한다",
+    "options": [
+      "데이터와 정답으로 규칙을 학습한다",
+      "규칙만 입력하면 데이터가 생성된다",
+      "모든 규칙을 사람이 직접 작성한다",
+      "데이터 없이 정답만 외운다"
+    ],
+    "explanation": "전통적 프로그래밍은 데이터와 규칙으로 출력을 만들고, 지도학습은 입력과 출력 예로 관계를 학습합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-003",
+    "subject": "ai",
+    "chapter": "Ch.2 머신러닝 기초",
+    "source": "Chapter 2_Basic of ML.pdf",
+    "page": 8,
+    "type": "mc",
+    "question": "스팸 메일과 정상 메일을 구분하는 문제는?",
+    "answer": "이항 분류",
+    "options": [
+      "이항 분류",
+      "다항 분류",
+      "군집화",
+      "연속값 회귀"
+    ],
+    "explanation": "이항 분류(binary classification)는 두 범주 중 하나를 예측합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-004",
+    "subject": "ai",
+    "chapter": "Ch.2 머신러닝 기초",
+    "source": "Chapter 2_Basic of ML.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "주택 가격처럼 연속적인 수치를 예측하는 문제는?",
+    "answer": "회귀",
+    "options": [
+      "회귀",
+      "이항 분류",
+      "군집 번호 부여",
+      "행동 정책 선택"
+    ],
+    "explanation": "회귀(regression)는 실수와 같은 연속적인 출력값을 예측합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-005",
+    "subject": "ai",
+    "chapter": "Ch.2 머신러닝 기초",
+    "source": "Chapter 2_Basic of ML.pdf",
+    "page": 11,
+    "type": "ox",
+    "question": "비지도학습은 입력마다 정답 레이블이 반드시 있어야 합니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "비지도학습은 정답 레이블 없이 데이터의 구조나 규칙성을 찾습니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-006",
+    "subject": "ai",
+    "chapter": "Ch.2 머신러닝 기초",
+    "source": "Chapter 2_Basic of ML.pdf",
+    "page": 12,
+    "type": "short",
+    "question": "환경과 상호작용하며 보상을 바탕으로 행동을 학습하는 방법은?",
+    "answer": "강화학습 / 강화 학습 / reinforcement learning",
+    "options": [],
+    "explanation": "강화학습은 각 입력의 정답 행동을 직접 받는 대신 행동의 결과로 보상을 받습니다.",
+    "aliases": [
+      "강화학습",
+      "강화 학습",
+      "reinforcement learning"
+    ]
+  },
+  {
+    "id": "ai-007",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 6,
+    "type": "mc",
+    "question": "P(C∣X)에서 입력 X를 관찰한 뒤의 클래스 확률은?",
+    "answer": "사후확률",
+    "options": [
+      "사후확률",
+      "사전확률",
+      "우도",
+      "증거 확률"
+    ],
+    "explanation": "사후확률은 관측 이후의 확률입니다. P(C)는 사전확률, P(X∣C)는 우도(가능도)입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-008",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 6,
+    "type": "short",
+    "question": "베이즈 정리 P(C∣X)=P(X∣C)×P(C)/P(X)에서 P(C)는?",
+    "answer": "사전확률 / 사전 확률 / prior",
+    "options": [],
+    "explanation": "사전확률은 새로운 증거를 보기 전 클래스가 나타날 가능성입니다.",
+    "aliases": [
+      "사전확률",
+      "사전 확률",
+      "prior"
+    ]
+  },
+  {
+    "id": "ai-009",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 4,
+    "type": "mc",
+    "question": "나이브 베이즈가 사용하는 핵심 단순화 가정은?",
+    "answer": "클래스가 주어지면 특성들이 서로 독립이다",
+    "options": [
+      "클래스가 주어지면 특성들이 서로 독립이다",
+      "모든 클래스 확률이 같다",
+      "정답이 필요 없다",
+      "모든 입력값이 동일하다"
+    ],
+    "explanation": "나이브 베이즈는 클래스에 대한 특성의 조건부 독립을 가정하여 계산을 단순화합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-010",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "한 노드의 모든 데이터가 같은 클래스라면 지니 불순도는?",
+    "answer": "0",
+    "options": [
+      "0",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "explanation": "G=1-Σp²입니다. 하나의 클래스 비율이 1이면 G=1-1=0입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-011",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 14,
+    "type": "short",
+    "question": "두 클래스의 비율이 각각 0.5일 때 지니 불순도는? (소수)",
+    "answer": "0.5 / 0.50",
+    "options": [],
+    "explanation": "1-(0.5²+0.5²)=0.5입니다.",
+    "aliases": [
+      "0.5",
+      "0.50"
+    ]
+  },
+  {
+    "id": "ai-012",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 23,
+    "type": "mc",
+    "question": "K-NN 분류는 새 데이터의 클래스를 주로 어떻게 결정하나요?",
+    "answer": "가까운 K개 이웃의 클래스를 참고한다",
+    "options": [
+      "가까운 K개 이웃의 클래스를 참고한다",
+      "무조건 평균값을 출력한다",
+      "레이블 없이 중심만 이동한다",
+      "보상 합을 최대화한다"
+    ],
+    "explanation": "K-NN(최근접 이웃)은 가까운 이웃들의 레이블을 이용하며, 분류에서는 다수결을 사용할 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-013",
+    "subject": "ai",
+    "chapter": "Ch.3 지도학습",
+    "source": "Chapter 3_Supervised Learning.pdf",
+    "page": 23,
+    "type": "ox",
+    "question": "K-NN의 K는 참고할 이웃의 수를 뜻합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "K-means의 K는 군집 수이며, K-NN의 K는 이웃 수입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-014",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 2,
+    "type": "mc",
+    "question": "정답 범주 없이 비슷한 고객끼리 묶는 작업은?",
+    "answer": "군집화",
+    "options": [
+      "군집화",
+      "지도 분류",
+      "선형 회귀",
+      "정책 평가"
+    ],
+    "explanation": "군집화(clustering)는 데이터의 유사성을 이용해 그룹을 찾는 비지도학습 작업입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-015",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 5,
+    "type": "short",
+    "question": "K-means에서 K는 무엇의 개수인가요?",
+    "answer": "군집 / 클러스터 / 군집 수 / 클러스터 수",
+    "options": [],
+    "explanation": "K는 데이터를 나눌 군집의 개수입니다.",
+    "aliases": [
+      "군집",
+      "클러스터",
+      "군집 수",
+      "클러스터 수"
+    ]
+  },
+  {
+    "id": "ai-016",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "K-means의 군집 중심은 해당 군집 데이터의 무엇인가요?",
+    "answer": "산술평균",
+    "options": [
+      "산술평균",
+      "항상 실제 데이터 하나",
+      "최댓값",
+      "최솟값"
+    ],
+    "explanation": "K-means는 군집 데이터의 평균 위치로 중심을 갱신합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-017",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "K-means에서 각 점은 보통 어떤 중심에 할당되나요?",
+    "answer": "가장 가까운 군집 중심",
+    "options": [
+      "가장 가까운 군집 중심",
+      "가장 먼 군집 중심",
+      "항상 첫 번째 중심",
+      "임의의 정답 레이블"
+    ],
+    "explanation": "할당 단계와 평균 중심 갱신 단계를 반복합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-018",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 5,
+    "type": "ox",
+    "question": "K-means의 결과는 초기 중심점 선택에 따라 달라질 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "초기값과 K 선택이 결과에 영향을 주며 이상치에도 민감합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-019",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 15,
+    "type": "mc",
+    "question": "K-medoids는 대표점으로 무엇을 선택하나요?",
+    "answer": "실제 데이터에 속하는 객체",
+    "options": [
+      "실제 데이터에 속하는 객체",
+      "반드시 모든 점의 평균",
+      "임의의 무한대 값",
+      "항상 원점"
+    ],
+    "explanation": "메도이드(medoid)는 실제 데이터 객체 중에서 선택하는 대표점입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-020",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 27,
+    "type": "mc",
+    "question": "DBSCAN의 군집화 기준은 무엇인가요?",
+    "answer": "데이터 밀도",
+    "options": [
+      "데이터 밀도",
+      "사전에 주어진 정답",
+      "직선 기울기",
+      "보상의 크기"
+    ],
+    "explanation": "DBSCAN은 이웃 데이터가 밀집된 영역을 연결하여 군집을 구성합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-021",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 28,
+    "type": "short",
+    "question": "DBSCAN에서 이웃 반경을 나타내는 매개변수는?",
+    "answer": "Eps / epsilon / ε / 엡실론",
+    "options": [],
+    "explanation": "Eps는 이웃 범위의 반경, MinPts는 밀집 영역을 결정하는 최소 점 수 기준입니다.",
+    "aliases": [
+      "Eps",
+      "epsilon",
+      "ε",
+      "엡실론"
+    ]
+  },
+  {
+    "id": "ai-022",
+    "subject": "ai",
+    "chapter": "Ch.4 비지도학습",
+    "source": "Chapter 4_UnSupervised Learning.pdf",
+    "page": 33,
+    "type": "ox",
+    "question": "DBSCAN은 군집 수 K를 미리 정하지 않아도 됩니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "DBSCAN은 밀도 기준으로 군집을 찾아 K-means와 달리 K를 입력하지 않습니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-023",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 6,
+    "type": "mc",
+    "question": "마르코프 성질의 핵심은 무엇인가요?",
+    "answer": "현재 상태로 다음 상태 확률을 설명한다",
+    "options": [
+      "현재 상태로 다음 상태 확률을 설명한다",
+      "모든 과거 상태가 반드시 필요하다",
+      "보상은 항상 0이다",
+      "미래 상태가 과거를 바꾼다"
+    ],
+    "explanation": "현재 상태가 주어지면 과거 이력에 추가로 의존하지 않는 성질입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-024",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 6,
+    "type": "short",
+    "question": "맑음→흐림 확률 0.2, 흐림→흐림 확률 0.7일 때 이 경로의 확률은? (소수)",
+    "answer": "0.14 / 0.140",
+    "options": [],
+    "explanation": "0.2 × 0.7 = 0.14입니다. 맑음→맑음→흐림 경로는 이 문제에 포함하지 않습니다.",
+    "aliases": [
+      "0.14",
+      "0.140"
+    ]
+  },
+  {
+    "id": "ai-025",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "MDP는 마르코프 체인에 어떤 개념을 추가하나요?",
+    "answer": "행동과 보상",
+    "options": [
+      "행동과 보상",
+      "기본 키와 외래 키",
+      "문서와 코드",
+      "행과 열"
+    ],
+    "explanation": "MDP(마르코프 결정 과정)는 순차적인 의사결정을 표현하는 강화학습의 기본 틀입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-026",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 7,
+    "type": "short",
+    "question": "상태에서 어떤 행동을 선택할지 정하는 규칙을 무엇이라고 하나요?",
+    "answer": "정책 / policy / π",
+    "options": [],
+    "explanation": "정책 π는 상태별 행동 선택 방법을 나타내며 확률적인 형태도 가능합니다.",
+    "aliases": [
+      "정책",
+      "policy",
+      "π"
+    ]
+  },
+  {
+    "id": "ai-027",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 19,
+    "type": "mc",
+    "question": "상태가치 Vπ(s)는 행동가치 Qπ(s,a)를 어떻게 결합하나요?",
+    "answer": "정책의 행동 확률로 가중평균",
+    "options": [
+      "정책의 행동 확률로 가중평균",
+      "항상 최솟값만 선택",
+      "무조건 단순 합계",
+      "차수로 나눈다"
+    ],
+    "explanation": "Vπ(s)=Σa π(a∣s)Qπ(s,a)로 계산합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-028",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 21,
+    "type": "ox",
+    "question": "Greedy 정책은 현재 Q값이 가장 큰 행동만 선택하므로 탐험이 부족할 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "Greedy는 활용(exploitation)에 집중해 새로운 행동의 가능성을 충분히 탐색하지 못할 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-029",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 23,
+    "type": "mc",
+    "question": "ε-greedy에서 ε=0.1의 의미는?",
+    "answer": "10% 확률로 무작위 행동을 선택한다",
+    "options": [
+      "10% 확률로 무작위 행동을 선택한다",
+      "항상 최악의 행동을 한다",
+      "정답률을 10%로 고정한다",
+      "90% 확률로 무작위 행동을 한다"
+    ],
+    "explanation": "나머지 90%에서는 현재 최선의 행동을 고릅니다. 무작위 선택도 최선의 행동을 고를 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-030",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 24,
+    "type": "short",
+    "question": "즉시 보상 2, 다음 상태 최대 Q값 10, γ=0.9일 때 r+γ max Q 값은?",
+    "answer": "11 / 11.0",
+    "options": [],
+    "explanation": "2+0.9×10=11입니다. 이는 목표값이며 학습률로 갱신한 최종 Q값을 묻는 것이 아닙니다.",
+    "aliases": [
+      "11",
+      "11.0"
+    ]
+  },
+  {
+    "id": "ai-031",
+    "subject": "ai",
+    "chapter": "Ch.5 강화학습",
+    "source": "Chapter 5_Reinforcement Learning.pdf",
+    "page": 24,
+    "type": "ox",
+    "question": "할인율 γ가 작을수록 먼 미래 보상의 영향은 더 작아집니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "γ의 거듭제곱으로 미래 보상을 할인하므로 작은 γ는 가까운 보상을 더 중시합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-032",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 3,
+    "type": "mc",
+    "question": "ŷ=2x+1에서 x=4일 때 예측값은?",
+    "answer": "9",
+    "options": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "explanation": "2×4+1=9입니다. 기울기는 2이고 절편은 1입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-033",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 6,
+    "type": "mc",
+    "question": "오차를 단순히 더하는 대신 제곱하는 이유는?",
+    "answer": "양수·음수 오차의 상쇄를 막기 위해",
+    "options": [
+      "양수·음수 오차의 상쇄를 막기 위해",
+      "오차를 모두 0으로 만들기 위해",
+      "레이블을 없애기 위해",
+      "입력을 분류하기 위해"
+    ],
+    "explanation": "제곱은 부호 상쇄를 막아 오차의 크기를 반영하며 큰 오차에 더 큰 벌점을 줍니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-034",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 7,
+    "type": "short",
+    "question": "오차가 1, -5, 3, 3일 때 MSE는?",
+    "answer": "11 / 11.0",
+    "options": [],
+    "explanation": "MSE(평균제곱오차)=(1+25+9+9)/4=11입니다.",
+    "aliases": [
+      "11",
+      "11.0"
+    ]
+  },
+  {
+    "id": "ai-035",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "경사하강법에서 매개변수 갱신 크기를 조절하는 값은?",
+    "answer": "학습률",
+    "options": [
+      "학습률",
+      "카디널리티",
+      "군집 수",
+      "기본 키"
+    ],
+    "explanation": "학습률(learning rate)이 너무 작으면 수렴이 느리고 너무 크면 불안정해질 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-036",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 11,
+    "type": "ox",
+    "question": "다중선형회귀는 둘 이상의 독립변수를 사용할 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "여러 설명변수로 하나의 종속변수(예측 대상)를 설명합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-037",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 14,
+    "type": "short",
+    "question": "각 관측값에서 변수의 평균을 빼는 과정은?",
+    "answer": "중심화 / centering",
+    "options": [],
+    "explanation": "중심화한 변수는 평균이 0이 됩니다.",
+    "aliases": [
+      "중심화",
+      "centering"
+    ]
+  },
+  {
+    "id": "ai-038",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 18,
+    "type": "mc",
+    "question": "강의 예제의 회귀식 ŷ=1+1×x₁+0×x₂에서 x₁=5, x₂=7일 때 예측값은?",
+    "answer": "6",
+    "options": [
+      "6",
+      "13",
+      "12",
+      "7"
+    ],
+    "explanation": "1+5+0×7=6입니다. 이 예제에서는 x₂의 추정 계수가 0입니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-039",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 21,
+    "type": "ox",
+    "question": "로지스틱 회귀는 이름에 회귀가 있지만 분류 문제에 활용됩니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "입력의 선형 결합을 0~1 사이 확률로 변환해 클래스를 판단합니다.",
+    "aliases": []
+  },
+  {
+    "id": "ai-040",
+    "subject": "ai",
+    "chapter": "Ch.6 선형회귀",
+    "source": "Chapter 6_Linear Regression.pdf",
+    "page": 21,
+    "type": "mc",
+    "question": "로지스틱 회귀의 확률 출력 범위는?",
+    "answer": "0에서 1 사이",
+    "options": [
+      "0에서 1 사이",
+      "항상 음수",
+      "1보다 큰 정수만",
+      "모든 실수"
+    ],
+    "explanation": "이진 분류에서 클래스에 속할 확률을 표현합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-001",
+    "subject": "se",
+    "chapter": "개발의 본질",
+    "source": "02 소프트웨어 개발에 대한 오해와 실체-3.pdf",
+    "page": 14,
+    "type": "ox",
+    "question": "소프트웨어 개발은 코딩 작업만 완료하면 끝납니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "요구사항 분석, 설계, 검증, 유지보수도 개발의 성패에 영향을 주는 중요한 활동입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-002",
+    "subject": "se",
+    "chapter": "개발의 본질",
+    "source": "02 소프트웨어 개발에 대한 오해와 실체-3.pdf",
+    "page": 29,
+    "type": "mc",
+    "question": "지연된 프로젝트에 인력을 추가하면 더 늦어질 수 있다는 법칙은?",
+    "answer": "브룩스의 법칙",
+    "options": [
+      "브룩스의 법칙",
+      "파레토 법칙",
+      "무어의 법칙",
+      "베이즈 정리"
+    ],
+    "explanation": "새 인력의 교육과 의사소통에 시간이 들어 단기적으로 지연이 더 커질 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-003",
+    "subject": "se",
+    "chapter": "개발의 본질",
+    "source": "02 소프트웨어 개발에 대한 오해와 실체-3.pdf",
+    "page": 25,
+    "type": "ox",
+    "question": "실행하지 않고도 리뷰나 정적 분석으로 결함을 찾을 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "리뷰·인스펙션·정적 분석은 소프트웨어를 실행하기 전에 수행할 수 있는 검토 활동입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-004",
+    "subject": "se",
+    "chapter": "개발의 본질",
+    "source": "02 소프트웨어 개발에 대한 오해와 실체-3.pdf",
+    "page": 26,
+    "type": "mc",
+    "question": "문서화가 유지보수에 도움이 되는 이유는?",
+    "answer": "설계 의도와 지식을 전달하기 때문에",
+    "options": [
+      "설계 의도와 지식을 전달하기 때문에",
+      "실행 코드를 완전히 대체해서",
+      "변경을 영구히 금지해서",
+      "테스트를 전부 없애서"
+    ],
+    "explanation": "개발 지식은 인력 이동 이후에도 전달되어야 하며 문서가 이를 돕습니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-005",
+    "subject": "se",
+    "chapter": "전통적 개발 방법론",
+    "source": "03 소프트웨어 개발 방법론1.pdf",
+    "page": 19,
+    "type": "mc",
+    "question": "요구분석·설계·구현·시험 단계를 순차적으로 진행하는 대표 모델은?",
+    "answer": "폭포수 모델",
+    "options": [
+      "폭포수 모델",
+      "K-means",
+      "스크럼",
+      "Q-learning"
+    ],
+    "explanation": "폭포수 모델은 단계별 결과물을 바탕으로 다음 단계를 진행하는 순차적 개발 모델입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-006",
+    "subject": "se",
+    "chapter": "전통적 개발 방법론",
+    "source": "03 소프트웨어 개발 방법론1.pdf",
+    "page": 22,
+    "type": "ox",
+    "question": "폭포수 모델은 요구사항 변경에 항상 가장 유연한 모델입니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "요구사항이 안정적일 때 적합하며 후반의 큰 변경은 앞선 단계의 재작업을 유발합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-007",
+    "subject": "se",
+    "chapter": "전통적 개발 방법론",
+    "source": "03 소프트웨어 개발 방법론1.pdf",
+    "page": 27,
+    "type": "mc",
+    "question": "프로토타입을 사용자에게 보여주는 주된 목적은?",
+    "answer": "요구사항을 구체화하고 피드백을 얻기 위해",
+    "options": [
+      "요구사항을 구체화하고 피드백을 얻기 위해",
+      "테스트를 영구히 생략하기 위해",
+      "문서를 전부 삭제하기 위해",
+      "사용자 참여를 막기 위해"
+    ],
+    "explanation": "프로토타입(시제품)은 사용자가 실제 원하는 기능을 명확히 하는 데 도움이 됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-008",
+    "subject": "se",
+    "chapter": "전통적 개발 방법론",
+    "source": "03 소프트웨어 개발 방법론1.pdf",
+    "page": 33,
+    "type": "mc",
+    "question": "폐기형 프로토타입은 요구사항을 확인한 뒤 어떻게 하나요?",
+    "answer": "시제품을 버리고 본 시스템을 새로 개발한다",
+    "options": [
+      "시제품을 버리고 본 시스템을 새로 개발한다",
+      "시제품을 반드시 그대로 납품한다",
+      "사용자 검토를 생략한다",
+      "계속해서 보상값만 갱신한다"
+    ],
+    "explanation": "진화형은 시제품을 발전시켜 시스템을 완성하고, 폐기형은 학습한 요구사항을 바탕으로 재개발합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-009",
+    "subject": "se",
+    "chapter": "전통적 개발 방법론",
+    "source": "03 소프트웨어 개발 방법론1.pdf",
+    "page": 33,
+    "type": "ox",
+    "question": "진화형 프로토타이핑은 시제품을 점진적으로 발전시킬 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "폐기형과 달리 프로토타입이 최종 시스템의 출발점이 됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-010",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 20,
+    "type": "ox",
+    "question": "애자일은 하나의 고정된 개발 방법론만을 가리킵니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "애자일은 변화에 민첩하게 대응하는 여러 방법론을 아우르는 접근입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-011",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 22,
+    "type": "mc",
+    "question": "애자일 선언문이 더 높은 가치를 두는 것은?",
+    "answer": "프로세스와 도구보다 개인과 협업",
+    "options": [
+      "프로세스와 도구보다 개인과 협업",
+      "협업보다 계약 문구만",
+      "작동하는 제품보다 문서 분량",
+      "변화 대응보다 최초 계획의 고수"
+    ],
+    "explanation": "애자일은 개인과 상호작용, 작동하는 소프트웨어, 고객 협력, 변화 대응을 중시합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-012",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 26,
+    "type": "short",
+    "question": "애자일에서 짧은 반복 개발 주기를 뜻하는 영문 용어는?",
+    "answer": "iteration / 이터레이션",
+    "options": [],
+    "explanation": "작은 목표를 반복해서 개발하고 피드백을 반영합니다.",
+    "aliases": [
+      "iteration",
+      "이터레이션"
+    ]
+  },
+  {
+    "id": "se-013",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 8,
+    "type": "mc",
+    "question": "외부 동작을 유지하면서 코드 내부 구조를 개선하는 작업은?",
+    "answer": "리팩토링",
+    "options": [
+      "리팩토링",
+      "신규 기능 추가",
+      "데이터 삭제",
+      "무조건 전면 재개발"
+    ],
+    "explanation": "리팩토링(refactoring)은 기존 동작을 보존하면서 가독성과 유지보수성을 개선합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-014",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 45,
+    "type": "mc",
+    "question": "XP의 5가지 가치에 포함되는 것은?",
+    "answer": "의사소통·단순성·피드백·용기·존중",
+    "options": [
+      "의사소통·단순성·피드백·용기·존중",
+      "은폐·복잡성·침묵·경쟁·지연",
+      "속도·문서량·하드웨어·권한·가격",
+      "설치·복사·삭제·종료·재시작"
+    ],
+    "explanation": "XP(익스트림 프로그래밍)는 다섯 가치를 바탕으로 실용적인 개발 실천을 강조합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-015",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 45,
+    "type": "ox",
+    "question": "XP는 테스트 우선 프로그래밍을 주요 실천으로 강조합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "작은 테스트를 먼저 작성하고 구현과 개선을 반복하여 피드백을 빠르게 얻습니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-016",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 63,
+    "type": "mc",
+    "question": "제품 요구사항을 우선순위에 따라 나열한 목록은?",
+    "answer": "제품 백로그",
+    "options": [
+      "제품 백로그",
+      "내부 스키마",
+      "최종 인수증",
+      "Q 테이블"
+    ],
+    "explanation": "제품 백로그(Product Backlog)는 제품 개발에 필요한 요구사항 목록입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-017",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 63,
+    "type": "short",
+    "question": "스크럼에서 매일 약 15분 동안 진행 상황을 점검하는 회의는?",
+    "answer": "일일 스크럼 / 일일 스크럼 회의 / 데일리 스크럼 / daily scrum",
+    "options": [],
+    "explanation": "짧은 주기로 진행 상황을 공유하고 협업을 조정합니다.",
+    "aliases": [
+      "일일 스크럼",
+      "일일 스크럼 회의",
+      "데일리 스크럼",
+      "daily scrum"
+    ]
+  },
+  {
+    "id": "se-018",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 63,
+    "type": "mc",
+    "question": "스프린트 회고가 집중하는 것은?",
+    "answer": "개발 과정에서 개선할 점",
+    "options": [
+      "개발 과정에서 개선할 점",
+      "새로운 DB 기본 키",
+      "사용자 앞에서 제품 시연만",
+      "전체 프로젝트 즉시 종료"
+    ],
+    "explanation": "스프린트 회고는 일하는 방식을 개선하고, 스프린트 검토는 제품 결과에 대한 피드백을 얻습니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-019",
+    "subject": "se",
+    "chapter": "애자일과 실천",
+    "source": "03 소프트웨어 개발 방법론2-1.pdf",
+    "page": 17,
+    "type": "mc",
+    "question": "CBD에서 컴포넌트의 특징으로 적절한 것은?",
+    "answer": "인터페이스로 접근하는 교체 가능한 소프트웨어 부품",
+    "options": [
+      "인터페이스로 접근하는 교체 가능한 소프트웨어 부품",
+      "항상 다른 기능에 강하게 종속된 코드",
+      "오직 물리적 하드웨어",
+      "재사용할 수 없는 임시 파일"
+    ],
+    "explanation": "CBD(컴포넌트 기반 개발)는 독립적인 기능을 가진 부품의 조합과 재사용을 추구합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-020",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "프로젝트의 특성으로 적절한 것은?",
+    "answer": "명확한 시작과 종료가 있는 한시적 활동",
+    "options": [
+      "명확한 시작과 종료가 있는 한시적 활동",
+      "종료 없이 반복되는 일상 업무만",
+      "결과물이 없는 활동",
+      "항상 불확실성이 없는 활동"
+    ],
+    "explanation": "프로젝트는 특정 제품·서비스·결과물을 위해 자원을 한시적으로 투입하는 활동입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-021",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 6,
+    "type": "short",
+    "question": "추상적인 초기 계획을 진행 중 점점 구체화하는 것을 무엇이라고 하나요?",
+    "answer": "점진적 구체화 / progressive elaboration",
+    "options": [],
+    "explanation": "진행하면서 정보를 확보해 계획과 산출물을 더 상세하게 만듭니다.",
+    "aliases": [
+      "점진적 구체화",
+      "progressive elaboration"
+    ]
+  },
+  {
+    "id": "se-022",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "PDCA의 올바른 순서는?",
+    "answer": "계획 → 실행 → 점검 → 조치",
+    "options": [
+      "계획 → 실행 → 점검 → 조치",
+      "실행 → 종료 → 기획 → 폐기",
+      "점검 → 계획 → 조치 → 실행",
+      "계획 → 점검 → 실행 → 종료"
+    ],
+    "explanation": "PDCA는 Plan·Do·Check·Action의 반복적인 개선 사이클입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-023",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 11,
+    "type": "short",
+    "question": "프로세스를 입력·도구 및 기법·산출물로 설명하는 구조의 약자는?",
+    "answer": "ITO",
+    "options": [],
+    "explanation": "Input, Tools & Techniques, Output의 구조입니다.",
+    "aliases": [
+      "ITO"
+    ]
+  },
+  {
+    "id": "se-024",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "강의에서 설명하는 5대 프로세스 그룹에 포함되지 않는 것은?",
+    "answer": "판매",
+    "options": [
+      "판매",
+      "착수",
+      "기획",
+      "감시 및 통제"
+    ],
+    "explanation": "강의 체계의 5대 그룹은 착수·기획·실행·감시 및 통제·종료입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-025",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 18,
+    "type": "mc",
+    "question": "프로젝트 시작과 PM 권한을 공식 승인하는 문서는?",
+    "answer": "프로젝트 헌장",
+    "options": [
+      "프로젝트 헌장",
+      "소스 코드",
+      "버그 목록",
+      "데이터 사전"
+    ],
+    "explanation": "프로젝트 헌장(Project Charter)은 목적·성공 기준·상위 범위와 PM의 권한 등을 담습니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-026",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 24,
+    "type": "short",
+    "question": "SW 품질과 생산성의 3P 중 People, Problem 다음은?",
+    "answer": "Process / 프로세스",
+    "options": [],
+    "explanation": "3P는 사람(People), 문제(Problem), 프로세스(Process)입니다.",
+    "aliases": [
+      "Process",
+      "프로세스"
+    ]
+  },
+  {
+    "id": "se-027",
+    "subject": "se",
+    "chapter": "프로젝트 관리",
+    "source": "04 프로젝트 관리.pdf",
+    "page": 27,
+    "type": "ox",
+    "question": "요구사항 분석 단계의 인도물로 요구사항명세서를 작성할 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "각 생명주기 단계에는 점검하고 인계할 산출물(deliverable)이 존재합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-028",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 6,
+    "type": "short",
+    "question": "발주자가 제안서를 요청하기 위해 작성하는 문서의 약자는?",
+    "answer": "RFP",
+    "options": [],
+    "explanation": "RFP(Request for Proposal)는 제안요청서입니다. 개발업체는 이에 대응해 제안서를 제출합니다.",
+    "aliases": [
+      "RFP"
+    ]
+  },
+  {
+    "id": "se-029",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 12,
+    "type": "mc",
+    "question": "ATM의 현금인출·계좌이체 기능은 어떤 범위인가요?",
+    "answer": "제품범위",
+    "options": [
+      "제품범위",
+      "프로젝트범위만",
+      "원가 기준선",
+      "인적자원 계획"
+    ],
+    "explanation": "제품범위는 결과물의 특징과 기능이며 프로젝트범위는 결과물을 인도하기 위한 전체 작업입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-030",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "WBS의 올바른 설명은?",
+    "answer": "산출물 중심의 계층적 작업 분류 구조",
+    "options": [
+      "산출물 중심의 계층적 작업 분류 구조",
+      "PM 혼자 작성하는 개인 메모",
+      "실행 코드의 줄 수",
+      "오직 날짜만 표시한 목록"
+    ],
+    "explanation": "WBS(작업 분류 체계)는 일정과 원가를 추정할 수 있는 수준까지 작업을 나눕니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-031",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 13,
+    "type": "short",
+    "question": "WBS의 최하위 단계 활동은?",
+    "answer": "작업패키지 / 작업 패키지 / work package",
+    "options": [],
+    "explanation": "작업패키지는 일정·원가 산정의 기초이며 강의에서는 통상 1~2주 단위로 설명합니다.",
+    "aliases": [
+      "작업패키지",
+      "작업 패키지",
+      "work package"
+    ]
+  },
+  {
+    "id": "se-032",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "일정 관리에서 활동 자원 산정 다음 단계는?",
+    "answer": "활동 기간 산정",
+    "options": [
+      "활동 기간 산정",
+      "프로젝트 종료",
+      "제품 판매",
+      "요구사항 전면 폐기"
+    ],
+    "explanation": "활동 정의 → 순서 배열 → 자원 산정 → 기간 산정 → 일정 개발 순서입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-033",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 16,
+    "type": "mc",
+    "question": "작업패키지별 비용을 산출해 합산하는 추정 방식은?",
+    "answer": "상향식 추정",
+    "options": [
+      "상향식 추정",
+      "하향식 추정",
+      "무작위 추정",
+      "그리디 정책"
+    ],
+    "explanation": "상향식(bottom-up)은 세부 항목에서 전체 비용을 구성합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-034",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 17,
+    "type": "mc",
+    "question": "사용자 관점의 기능으로 소프트웨어 규모를 측정하는 방법은?",
+    "answer": "기능점수",
+    "options": [
+      "기능점수",
+      "LOC만 사용",
+      "CPU 클럭",
+      "군집 개수"
+    ],
+    "explanation": "기능점수(Function Point)는 기능을 측정하고 LOC는 소스 코드의 줄 수를 측정합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-035",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 18,
+    "type": "mc",
+    "question": "고객이 정말 원하는 제품인지 묻는 Right product?는?",
+    "answer": "확인(Validation)",
+    "options": [
+      "확인(Validation)",
+      "검증(Verification)",
+      "형상 동결",
+      "코드 컴파일"
+    ],
+    "explanation": "확인은 사용자 요구를 올바르게 이해했는지, 검증은 이해된 요구를 제대로 구현했는지 점검합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-036",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 18,
+    "type": "ox",
+    "question": "검증(Verification)은 이해된 요구사항이 산출물에 제대로 반영됐는지 점검합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "Built right?에 해당합니다. 확인(Validation)의 Right product?와 구분합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-037",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 18,
+    "type": "short",
+    "question": "단계별 요구사항 사이의 연관 관계를 제공하는 개념은?",
+    "answer": "추적성 / traceability",
+    "options": [],
+    "explanation": "추적성은 요구사항과 설계·구현·시험 등의 연결을 파악하고 변경 영향을 분석하는 데 도움이 됩니다.",
+    "aliases": [
+      "추적성",
+      "traceability"
+    ]
+  },
+  {
+    "id": "se-038",
+    "subject": "se",
+    "chapter": "프로젝트 계획",
+    "source": "05 프로젝트계획.pdf",
+    "page": 18,
+    "type": "mc",
+    "question": "형상관리계획(SCM)이 다루는 핵심은?",
+    "answer": "산출물의 변경 통제 절차",
+    "options": [
+      "산출물의 변경 통제 절차",
+      "화면 색상을 무작위로 변경",
+      "모든 문서 폐기",
+      "고객 피드백 금지"
+    ],
+    "explanation": "형상관리(configuration management)는 문서와 코드 등 산출물의 변경을 체계적으로 관리합니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-039",
+    "subject": "se",
+    "chapter": "개발의 본질",
+    "source": "01 강의계획.pdf",
+    "page": 11,
+    "type": "mc",
+    "question": "소프트웨어 생명주기의 흐름으로 적절한 것은?",
+    "answer": "요구사항 분석 → 설계 → 구현 → 시험 → 유지보수",
+    "options": [
+      "요구사항 분석 → 설계 → 구현 → 시험 → 유지보수",
+      "코딩 → 판매 → 요구사항 최초 확인",
+      "시험 → 요구사항 폐기 → 설계 삭제",
+      "유지보수 → 문서 폐기 → 종료만 반복"
+    ],
+    "explanation": "생명주기(life cycle)는 요구사항부터 설계·구현·시험·유지보수까지 이어지는 전체 과정입니다.",
+    "aliases": []
+  },
+  {
+    "id": "se-040",
+    "subject": "se",
+    "chapter": "개발의 본질",
+    "source": "01 강의계획.pdf",
+    "page": 18,
+    "type": "ox",
+    "question": "시스템의 가치 평가는 성능뿐 아니라 시간·비용·신뢰성·안전성 등을 고려할 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "시스템의 목적에 따라 여러 평가 기준을 함께 고려하며 기술적 측면과 관리적 측면이 모두 영향을 줍니다.",
+    "aliases": []
+  }
+]
