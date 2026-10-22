@@ -1,3 +1,4 @@
+import {initialSE,seGoals,reduceSE} from './se-engine.js';
 // Small, deterministic teaching simulations; no general-purpose SQL execution.
 export const STUDENTS = [
   { id: '101', name: '하늘', dept: '컴퓨터' },
@@ -71,6 +72,7 @@ export function mse(a, b) {
   return REGRESSION.reduce((sum, p) => sum + (p.y - (a * p.x + b)) ** 2, 0) / REGRESSION.length;
 }
 export function initialLesson(id) {
+  const extended=initialSE(id);if(extended)return extended;
   const states = {
     'db-query': { dept: 'all', columns: ['id', 'name', 'dept'], marks: {} },
     'db-key': { rows: STUDENTS.map(r => ({ ...r })), marks: {} },
@@ -85,6 +87,7 @@ export function initialLesson(id) {
   return states[id] ?? null;
 }
 export function lessonGoals(id, s) {
+  const extended=seGoals(id,s);if(extended)return extended;
   const goals = {
     'db-query': [['컴퓨터학과 행만 남기기', !!s.marks.filtered], ['이름 열만 남기기', !!s.marks.projected], ['필터와 열을 모두 원래대로 돌리기', !!s.marks.restored]],
     'db-key': [['중복 학번이 거절되는 모습 관찰', !!s.marks.duplicate], ['빈 학번이 거절되는 모습 관찰', !!s.marks.empty], ['새 학번으로 회원 등록', !!s.marks.inserted]],
@@ -99,6 +102,7 @@ export function lessonGoals(id, s) {
   return goals[id] ?? [];
 }
 export function reduceLesson(id, previous, action, value) {
+  if(initialSE(id))return reduceSE(id,previous,action,value);
   const s = structuredClone(previous);
   let message = '', positive = true;
   if (id === 'db-query') {

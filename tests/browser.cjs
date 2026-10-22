@@ -19,11 +19,11 @@ const byId=id=>bank.find(q=>q.id===id);
  await page.locator('.result').waitFor();assert.equal((await state()).records[0].responses.filter(r=>r.correct).length,9);assert.equal((await state()).records[0].xp,125);assert.equal(Object.keys((await state()).wrong).length,1);
  await page.locator('[data-retry-record]').click();await solve(true);await page.locator('.result').waitFor();assert.equal(Object.keys((await state()).wrong).length,0);
  await page.locator('[data-action="home"]').last().click();await choose('ai','short');for(let i=0;i<10;i++)await solve(i!==0);await page.locator('.result').waitFor();await page.locator('[data-action="home"]').last().click();
- await choose('se','ox');for(let i=0;i<9;i++)await solve(true);await page.locator('.result').waitFor();await page.locator('[data-action="home"]').last().click();
+ await choose('se','ox');for(let i=0;i<10;i++)await solve(true);await page.locator('.result').waitFor();await page.locator('[data-action="home"]').last().click();
  // Timer expiry: set a valid one-question pending run with an expired deadline.
  await page.clock.install();await page.locator('#settings-open').click();await page.locator('#timer-setting').check();await page.getByRole('button',{name:'설정 닫기'}).click();await choose('db','mc');await page.clock.fastForward(31000);await page.locator('.feedback.bad').waitFor();assert.equal((await state()).session.responses[0].timedOut,true);await page.locator('[data-action="leave"]').click();await page.locator('#settings-open').click();await page.locator('#timer-setting').uncheck();await page.getByRole('button',{name:'설정 닫기'}).click();
  // All questions and every option remain readable in narrow mobile layout.
  await page.setViewportSize({width:320,height:740});await page.locator('[data-subject="db"]').click();await page.locator('[data-count="all"]').click();await page.locator('[data-action="start"]').click();await page.locator('#confirm-yes').click();for(let i=0;i<40;i++)await solve(true);await page.locator('.result').waitFor();
- assert.deepEqual(errors,[]);console.log('PASS: 320–1280px; 71 answered questions; 3 subjects; mixed/MC/OX/short; shuffle grading; self-grade gate; results; wrong retry; resume; XP; timer expiry; zero page errors.');
+ assert.deepEqual(errors,[]);console.log('PASS: 320–1280px; 72 answered questions; 3 subjects; mixed/MC/OX/short; shuffle grading; self-grade gate; results; wrong retry; resume; XP; timer expiry; zero page errors.');
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -1,6 +1,6 @@
 {
   "name": "midterm-quest",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +8,8 @@
     "start": "python3 -m http.server 4173",
     "test:browser": "node tests/browser.cjs",
     "test:concepts": "node tests/concepts.cjs",
-    "test:offline": "node tests/offline.cjs"
+    "test:offline": "node tests/offline.cjs",
+    "test:se": "node tests/se-classes.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

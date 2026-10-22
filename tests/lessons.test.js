@@ -4,8 +4,8 @@ import {STUDENTS,STARS,queryStudents,insertStudent,joinEnrolments,nearest,assign
 import {LESSONS} from '../lessons.js';
 function apply(id, actions) {return actions.reduce((s,[a,v])=>reduceLesson(id,s,a,v).state,initialLesson(id));}
 function done(id,s){return lessonGoals(id,s).every(g=>g[1]);}
-test('nine concept quests, three per subject, each starts incomplete',()=>{
- assert.equal(LESSONS.length,9);for(const subject of ['db','ai','se'])assert.equal(LESSONS.filter(l=>l.subject===subject).length,3);
+test('sixteen concept quests, ten software engineering classes, each starts incomplete',()=>{
+ assert.equal(LESSONS.length,16);for(const subject of ['db','ai','se'])assert.equal(LESSONS.filter(l=>l.subject===subject).length,subject==='se'?10:3);
  for(const l of LESSONS){assert.ok(l.source.endsWith('.pdf'));assert.ok(l.pages);assert.equal(done(l.id,initialLesson(l.id)),false);}
 });
 test('SELECT/WHERE return actual row and column subsets without mutating originals',()=>{
