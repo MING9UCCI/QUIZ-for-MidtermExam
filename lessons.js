@@ -1,5 +1,7 @@
 import {SE_CLASSES,seBoard} from './se-classes.js';
 import {SE_ORDER} from './se-engine.js';
+import {SG_CLASSES,sgBoard} from './sg-classes.js';
+import {SG_ORDER} from './sg-engine.js';
 import {
   STUDENTS, ENROLMENTS, FEATURES, STARS, REGRESSION, LIFECYCLE, WBS_TASKS, BOOKS,
   queryStudents, joinEnrolments, nearest, mse, initialLesson, lessonGoals, reduceLesson
@@ -33,8 +35,9 @@ export const LESSONS = [
   { id: 'se-check', subject: 'se', title: '고객의 진짜 소원', subtitle: '확인과 검증을 다른 행동으로 체험해요', time: '3분', symbol: '☷',
     idea: '확인(Validation)은 고객이 원하는 것을 제대로 이해했는지, 검증(Verification)은 이해한 요구를 제대로 반영했는지 점검합니다. 둘은 개발 전 과정에서 필요해요.',
     takeaway: '고객의 필요 ↔ 명세를 살피는 확인, 명세 ↔ 구현을 살피는 검증. 요구를 오해한 채 구현만 정확해도 원하는 제품이 되지 않습니다.', source: '05 프로젝트계획.pdf', pages: '18' },
-  ...SE_CLASSES
-].sort((a,b)=>{const rank={db:0,ai:1,se:2};return rank[a.subject]-rank[b.subject]||(a.subject==='se'?SE_ORDER.indexOf(a.id)-SE_ORDER.indexOf(b.id):0);});
+  ...SE_CLASSES,
+  ...SG_CLASSES
+].sort((a,b)=>{const rank={db:0,ai:1,se:2,sg:3};const order={se:SE_ORDER,sg:SG_ORDER}[a.subject];return rank[a.subject]-rank[b.subject]||(order?order.indexOf(a.id)-order.indexOf(b.id):0);});
 const COLUMNS = { id: '학번', name: '이름', dept: '학과', course: '과목' };
 const GROUPS = { requirements: '요구사항명세서', design: '설계서', test: '시험결과서' };
 
@@ -60,7 +63,7 @@ export function createLearning({ host, read, save, render, onOpen, onHome, onQui
     return `<button type="button" class="secondary lab-control" data-lab-action="${action}" data-lab-value="${esc(value)}" ${extra}>${label}</button>`;
   }
   function board(l, s) {
-    const extended=seBoard(l,s,{button,esc});if(extended!==null)return extended;
+    const extended=seBoard(l,s,{button,esc})??sgBoard(l,s,{button,esc});if(extended!==null)return extended;
     if (l.id === 'db-query') {
       const rows = queryStudents(s.dept, s.columns);
       return `<label class="field">행 필터 · WHERE<select data-lab-change="dept" aria-label="학과 필터"><option value="all">모든 학과</option>${['컴퓨터','수학','통계'].map(d => `<option ${s.dept===d?'selected':''}>${d}</option>`).join('')}</select></label><p class="lab-label">보여줄 열 · SELECT (누르면 켜고 꺼져요)</p><div class="lab-chips">${['id','name','dept'].map(c => button('column',c,COLUMNS[c],`aria-pressed="${s.columns.includes(c)}"`)).join('')}</div><div class="lab-code" aria-label="현재 SQL">SELECT ${s.columns.map(c=>COLUMNS[c]).join(', ')}<br>FROM 학생${s.dept==='all'?'':`<br>WHERE 학과 = '${esc(s.dept)}'`};</div>${table(rows,s.columns,`조회 결과 · ${rows.length}행 × ${s.columns.length}열`)}<p class="muted">원본 학생 4명은 그대로입니다. 조회 결과만 달라져요.</p>`;

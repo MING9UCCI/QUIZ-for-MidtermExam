@@ -3104,5 +3104,1751 @@
     ],
     "explanation": "확인(Validation)이 요구의 이해를 살핍니다. 검증만 충족해도 사용자에게 잘못된 제품이 될 수 있습니다.",
     "aliases": []
+  },
+  {
+    "id": "sg-001",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "강의에서 '주어진 문제 상황에 대해 다양하면서 새롭고 적절하고 가치 있는 것을 창출하는 능력'으로 정의한 것은?",
+    "answer": "창의력",
+    "options": [
+      "창의력",
+      "창의성",
+      "상상력",
+      "통찰력"
+    ],
+    "explanation": "창의력(創意力)은 가치 있는 것을 창출하는 '능력', 창의성(創意性)은 새로운 것을 생각해 내는 '특성'으로 구분합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-002",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 5,
+    "type": "ox",
+    "question": "강의에서 창의성(創意性)은 '새로운 것을 생각해 내는 특성'으로 정의합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "'성(性)'은 특성, '력(力)'은 능력입니다. 창의성은 특성, 창의력은 능력으로 구분해 두세요.",
+    "aliases": []
+  },
+  {
+    "id": "sg-003",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 7,
+    "type": "ox",
+    "question": "모든 기계학습은 딥러닝에 포함됩니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "포함 관계는 반대입니다. AI ⊃ 기계학습 ⊃ 딥러닝이므로, 딥러닝이 기계학습의 한 부분입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-004",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 8,
+    "type": "short",
+    "question": "1920×1080 해상도, 60FPS 영상을 출력하려면 이론적으로 1초에 몇 개의 픽셀을 그려야 하나요? (숫자)",
+    "answer": "124416000 / 124,416,000 / 1억 2441만 6000",
+    "options": [],
+    "explanation": "1920 × 1080 × 60 = 124,416,000개입니다. 한 프레임은 1920 × 1080 = 2,073,600개입니다.",
+    "aliases": [
+      "124416000",
+      "124,416,000",
+      "1억 2441만 6000"
+    ]
+  },
+  {
+    "id": "sg-005",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "강의 자료의 비교표에서 H100 대비 B200의 AI 추론 성능은 최대 몇 배로 제시되었나요?",
+    "answer": "15배",
+    "options": [
+      "15배",
+      "2배",
+      "3배",
+      "50배"
+    ],
+    "explanation": "B200은 학습 최대 3배, 추론 최대 15배로 제시됩니다. FP4 포맷 지원이 초고속 추론을 가능하게 했습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-006",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 13,
+    "type": "ox",
+    "question": "강의 비교표에 따르면 B200은 H100보다 최대 소비 전력이 낮습니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "H100(SXM)은 700W, B200은 1000W 이상으로 B200의 전력이 더 높습니다. 대신 같은 성능에 필요한 GPU 수가 줄어 총소유비용(TCO)에서 유리할 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-007",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 2차시.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "빅데이터의 3V에 해당하지 않는 것은?",
+    "answer": "Visibility (가시성)",
+    "options": [
+      "Visibility (가시성)",
+      "Volume (규모)",
+      "Velocity (속도)",
+      "Variety (다양성)"
+    ],
+    "explanation": "빅데이터의 3V는 Volume, Velocity, Variety입니다. 빅데이터는 AI·기계학습·딥러닝 발전의 바탕이 됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-008",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 6,
+    "type": "mc",
+    "question": "신경망에서 데이터의 특징(Feature)을 추출하고 처리하는 중간 단계로, 깊어질수록 더 복잡한 추론이 가능한 층은?",
+    "answer": "은닉층 (Hidden Layer)",
+    "options": [
+      "은닉층 (Hidden Layer)",
+      "입력층 (Input Layer)",
+      "출력층 (Output Layer)",
+      "정답층 (Label Layer)"
+    ],
+    "explanation": "입력층은 원시 데이터를 받고, 은닉층은 특징을 추출·처리하며, 출력층은 최종 확률이나 값을 냅니다. 은닉층을 깊게 쌓은 것이 딥러닝입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-009",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "출력층의 오차를 입력층 방향으로 거꾸로 전파하며 가중치를 수정하는 방법은?",
+    "answer": "역전파 (Backpropagation)",
+    "options": [
+      "역전파 (Backpropagation)",
+      "순전파 (Forward Propagation)",
+      "평탄화 (Flatten)",
+      "풀링 (Pooling)"
+    ],
+    "explanation": "손실 함수로 오차를 재고, 경사 하강법으로 오차를 줄이는 방향을 찾으며, 역전파로 그 오차를 거꾸로 전달해 가중치를 고칩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-010",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 7,
+    "type": "short",
+    "question": "예측값과 정답 사이의 오차를 측정하며, 학습의 목표가 그 값을 0에 가깝게 만드는 것인 함수는?",
+    "answer": "손실 함수 / 손실함수 / 비용 함수 / Cost Function / Loss Function",
+    "options": [],
+    "explanation": "손실 함수(Cost Function)가 오차를 측정하면, 경사 하강법이 산 정상에서 골짜기로 내려가듯 오차가 줄어드는 방향으로 가중치를 옮깁니다.",
+    "aliases": [
+      "손실 함수",
+      "손실함수",
+      "비용 함수",
+      "Cost Function",
+      "Loss Function"
+    ]
+  },
+  {
+    "id": "sg-011",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 10,
+    "type": "mc",
+    "question": "소량의 정답 데이터와 대량의 미분류 데이터를 결합해 학습하는 방식으로, 강의에서 Google Photos 얼굴 인식을 예로 든 것은?",
+    "answer": "준지도학습",
+    "options": [
+      "준지도학습",
+      "지도학습",
+      "강화학습",
+      "전이학습"
+    ],
+    "explanation": "준지도학습(Semi-supervised Learning)은 라벨이 붙은 적은 데이터와 라벨 없는 많은 데이터를 함께 사용합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-012",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 10,
+    "type": "ox",
+    "question": "강화학습은 에이전트가 환경과 상호작용하며 보상을 최대화하는 전략을 학습하는 방식이며, 알파고가 대표적인 예입니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "에이전트가 행동하면 환경이 보상과 상태를 돌려주고, 이를 반복하며 보상을 최대화하는 전략을 익힙니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-013",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 11,
+    "type": "mc",
+    "question": "2012년 AlexNet에 대한 설명으로 옳지 않은 것은?",
+    "answer": "Transformer의 셀프 어텐션을 처음 도입했다",
+    "options": [
+      "Transformer의 셀프 어텐션을 처음 도입했다",
+      "ImageNet 이미지 분류 대회에서 압도적으로 승리했다",
+      "깊은 합성곱 신경망(CNN)과 Dropout 기술을 적용했다",
+      "CPU에서 GPU 병렬 연산으로의 전환을 이끌었다"
+    ],
+    "explanation": "AlexNet은 CNN·Dropout과 GPU 학습으로 딥러닝 시대를 열었습니다. 셀프 어텐션을 쓴 Transformer는 2017년에 발표되었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-014",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "이미지와 텍스트를 하나의 '의미 공간'에서 이해하여, 훈련 없이도 텍스트 설명으로 처음 보는 이미지를 분류(Zero-Shot)하는 OpenAI의 모델은?",
+    "answer": "CLIP",
+    "options": [
+      "CLIP",
+      "AlexNet",
+      "StyleGAN2",
+      "LSTM"
+    ],
+    "explanation": "CLIP은 약 4억 개의 이미지-텍스트 쌍을 학습해 '파란색 차'와 '빨간색 차'를 별도 훈련 없이도 구분합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-015",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 14,
+    "type": "short",
+    "question": "CLIP이 올바른 이미지-텍스트 쌍은 서로 당기고 틀린 쌍은 밀어내며 관계를 배우는 학습 방식은?",
+    "answer": "대조 학습 / 대조학습 / Contrastive Learning",
+    "options": [],
+    "explanation": "이미지 인코더와 텍스트 인코더(Transformer)의 출력이 맞는 쌍끼리 가까워지도록 학습하는 것이 대조 학습입니다.",
+    "aliases": [
+      "대조 학습",
+      "대조학습",
+      "Contrastive Learning"
+    ]
+  },
+  {
+    "id": "sg-016",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 16,
+    "type": "mc",
+    "question": "Anna Ridler의 'Mosaic Virus'에 대한 설명으로 알맞은 것은?",
+    "answer": "직접 구축한 튤립 사진 데이터셋으로 GAN을 학습해, 비트코인 시세에 따라 튤립 줄무늬가 변한다",
+    "options": [
+      "직접 구축한 튤립 사진 데이터셋으로 GAN을 학습해, 비트코인 시세에 따라 튤립 줄무늬가 변한다",
+      "관객의 카메라 영상을 바다·구름 이미지로 실시간 재해석한다",
+      "MoMA 소장품 데이터를 라벨 없이 학습해 잠재 공간을 시각화한다",
+      "로봇 팔이 붓으로 AI가 생성한 획을 그린다"
+    ],
+    "explanation": "Mosaic Virus는 17세기 네덜란드 튤립 파동과 비트코인 투기를 연결한 작품으로, 약 1만 장의 튤립 사진을 직접 데이터셋으로 만들었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-017",
+    "subject": "sg",
+    "chapter": "2주차 · AI 기초",
+    "source": "반도체와 생성형 AI 디자인_2주차 3차시.pdf",
+    "page": 17,
+    "type": "ox",
+    "question": "Memo Akten의 'Learning to See'는 AI가 학습한 데이터의 편향(Bias)을 통해 세상을 재해석한다는 점을 보여 줍니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "카메라에 비친 전선과 천을 바다·구름으로 학습한 모델이 파도와 구름으로 해석합니다. '우리 자신의 모습대로 본다'는 메시지를 담았습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-018",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 5,
+    "type": "short",
+    "question": "순환 구조의 RNN을 시간 순서대로 길게 펼쳐 놓아 연속된 데이터의 문맥을 파악하는 것을 무엇이라 하나요?",
+    "answer": "펼침 / Unrolling / 언롤링",
+    "options": [],
+    "explanation": "RNN 셀을 Step 0, 1, 2…로 펼쳐 놓으면(Unrolling) 시간에 따른 흐름을 수식처럼 다룰 수 있습니다.",
+    "aliases": [
+      "펼침",
+      "Unrolling",
+      "언롤링"
+    ]
+  },
+  {
+    "id": "sg-019",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 6,
+    "type": "mc",
+    "question": "BPTT로 RNN을 학습할 때 시퀀스가 길어질수록 초기 정보가 사라져 장기 의존성을 학습하지 못하는 문제는?",
+    "answer": "기울기 소실 (Vanishing Gradient)",
+    "options": [
+      "기울기 소실 (Vanishing Gradient)",
+      "과적합 (Overfitting)",
+      "모드 붕괴 (Mode Collapse)",
+      "폰 노이만 병목"
+    ],
+    "explanation": "가중치의 고유값이 1보다 작으면 거듭제곱이 반복되며 기울기가 기하급수적으로 0에 수렴해 먼 과거 정보를 '망각'합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-020",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 6,
+    "type": "ox",
+    "question": "RNN의 기울기 소실은 가중치(W)의 고유값이 1보다 클 때 거듭제곱이 반복되며 0에 수렴하는 현상입니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "고유값이 1보다 '작을' 때 Wⁿ이 0에 수렴하며 기울기가 소실됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-021",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "1997년 Hochreiter와 Schmidhuber가 기울기 소실을 막기 위해 제안한 LSTM의 핵심 아이디어는?",
+    "answer": "정보를 흘려보낼지 지울지 결정하는 별도의 트랙(Cell State)을 만든다",
+    "options": [
+      "정보를 흘려보낼지 지울지 결정하는 별도의 트랙(Cell State)을 만든다",
+      "입력 이미지를 1차원으로 평탄화한다",
+      "생성자와 판별자를 경쟁시킨다",
+      "모든 정보를 매 단계 무조건 변형한다"
+    ],
+    "explanation": "LSTM은 '정보를 지키는 컨베이어 벨트'인 셀 상태와 상수 에러 캐러셀(CEC)로 수천 단계 이상의 의존성도 유지합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-022",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "LSTM의 게이트 중 '과거의 기억(s[n-1])을 얼마나 유지할 것인가'를 정하는 것은?",
+    "answer": "Forget Gate",
+    "options": [
+      "Forget Gate",
+      "Input Gate",
+      "Output Gate",
+      "Attention Gate"
+    ],
+    "explanation": "Forget Gate는 과거 기억 유지, Input Gate는 새 정보 수용, Output Gate는 현재 상태를 외부로 드러낼 정도를 정합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-023",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 9,
+    "type": "ox",
+    "question": "LSTM에서 Sigmoid는 정보의 흐름을 조절하는 수도꼭지(제어) 역할, Tanh는 데이터를 정규화하는 역할을 합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "Sigmoid는 0~1 값으로 얼마나 통과시킬지 제어하고, Tanh는 -1~1 범위로 정보를 정규화합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-024",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 12,
+    "type": "mc",
+    "question": "이미지를 1차원으로 평탄화(Flatten)해 완전 연결 계층에 넣을 때 생기는 문제는?",
+    "answer": "픽셀 간 거리가 무시되어 공간 구조 정보가 사라진다",
+    "options": [
+      "픽셀 간 거리가 무시되어 공간 구조 정보가 사라진다",
+      "이미지의 색상 채널이 늘어난다",
+      "학습 데이터에 정답 레이블이 필요 없어진다",
+      "시간 순서 정보가 추가된다"
+    ],
+    "explanation": "이미지는 높이·너비·채널의 3차원 데이터라 평탄화하면 공간 구조가 소실됩니다. 이를 보완하는 '눈'이 CNN입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-025",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "CNN에서 필터(Kernel)가 이미지를 훑으며 이동하는 간격을 무엇이라 하나요?",
+    "answer": "Stride",
+    "options": [
+      "Stride",
+      "Padding",
+      "Pooling",
+      "Dropout"
+    ],
+    "explanation": "Stride는 이동 간격, Padding은 외곽 정보를 보존하는 테두리, Pooling은 중요한 특징만 남기고 크기를 압축하는 단계입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-026",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 1차시.pdf",
+    "page": 13,
+    "type": "short",
+    "question": "CNN에서 중요한 특징만 남기고 데이터의 크기를 압축하는 단계는?",
+    "answer": "풀링 / Pooling / 폴링",
+    "options": [],
+    "explanation": "필터로 특징 맵을 만든 뒤 풀링(Pooling)으로 크기를 줄입니다. 필터는 인간의 시각 피질처럼 특정 영역의 패턴에만 반응합니다.",
+    "aliases": [
+      "풀링",
+      "Pooling",
+      "폴링"
+    ]
+  },
+  {
+    "id": "sg-027",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 2차시.pdf",
+    "page": 3,
+    "type": "mc",
+    "question": "GAN(생성적 적대 신경망)에서 판별자(Discriminator)의 역할은?",
+    "answer": "입력된 데이터가 진짜인지 가짜인지 구별한다",
+    "options": [
+      "입력된 데이터가 진짜인지 가짜인지 구별한다",
+      "판별자를 속일 수 있는 가짜 데이터를 만든다",
+      "텍스트를 토큰으로 나눈다",
+      "노이즈를 단계적으로 제거한다"
+    ],
+    "explanation": "생성자는 진짜 같은 가짜를 만들고, 판별자는 진짜와 가짜를 구별합니다. 둘의 손실이 서로에게 피드백이 됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-028",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 2차시.pdf",
+    "page": 3,
+    "type": "ox",
+    "question": "GAN의 생성자와 판별자는 Minimax Game으로 경쟁하며, 이를 통해 원본 데이터의 분포를 학습합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "한쪽은 속이려 하고 한쪽은 잡아내려는 경쟁 학습(Adversarial Learning)으로 데이터 분포를 익힙니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-029",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 2차시.pdf",
+    "page": 4,
+    "type": "mc",
+    "question": "Refik Anadol의 '데이터 페인팅' 철학을 바르게 표현한 것은?",
+    "answer": "데이터는 물감(Pigment)이고, 알고리즘은 붓(Brush)이다",
+    "options": [
+      "데이터는 물감(Pigment)이고, 알고리즘은 붓(Brush)이다",
+      "데이터는 붓이고, 알고리즘은 캔버스다",
+      "데이터는 정답이고, 알고리즘은 채점자다",
+      "알고리즘은 물감이고, 관객은 붓이다"
+    ],
+    "explanation": "수백만 개의 이미지·음향·텍스트를 StyleGAN2 등에 학습시켜 '기계가 인식하는 기억'을 시각화하는 작업입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-030",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 3차시.pdf",
+    "page": 3,
+    "type": "mc",
+    "question": "생성형 AI가 기존의 '판별적(Discriminative)' AI와 근본적으로 다른 점은?",
+    "answer": "학습 데이터에 없던 새로운 콘텐츠를 만들어 낸다",
+    "options": [
+      "학습 데이터에 없던 새로운 콘텐츠를 만들어 낸다",
+      "주어진 데이터를 분류만 한다",
+      "정답 레이블 없이는 동작하지 않는다",
+      "반드시 규칙을 사람이 직접 입력해야 한다"
+    ],
+    "explanation": "기존 AI가 분류·예측을 했다면, 생성형 AI는 학습한 확률 분포와 잠재적 특성으로 원본과 유사하면서도 새로운 산출물을 만듭니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-031",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 3차시.pdf",
+    "page": 4,
+    "type": "ox",
+    "question": "생성형 AI는 내부의 확률적 샘플링 덕분에 같은 프롬프트에도 매번 다른 결과물을 만들 수 있습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "'석양을 배경으로 한 미래 도시' 같은 같은 프롬프트로도 서로 다른 이미지를 수백 가지 만들 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-032",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 3차시.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "데이터에 점진적으로 노이즈를 추가하는 과정을 학습한 뒤, 이를 역으로 수행해 순수한 노이즈에서 이미지를 생성하는 기술은?",
+    "answer": "Diffusion (확산 모델)",
+    "options": [
+      "Diffusion (확산 모델)",
+      "GAN",
+      "VAE",
+      "Transformer"
+    ],
+    "explanation": "Stable Diffusion, DALL-E 2, Midjourney의 핵심 기술입니다. VAE는 잠재 공간으로 인코딩 후 복원하며 생성하고, Transformer는 어텐션 기반입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-033",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 3차시.pdf",
+    "page": 7,
+    "type": "short",
+    "question": "예술가가 직접 픽셀을 그리는 대신 데이터셋을 선택하고, 프롬프트를 디자인하며, 모델 파라미터를 조정하는 창작 방식을 강의에서 무엇이라 했나요?",
+    "answer": "메타-창작 / 메타 창작 / 메타창작",
+    "options": [],
+    "explanation": "메타-창작은 작가성, 독창성, 기술과 예술의 관계에 근본적인 질문을 던집니다.",
+    "aliases": [
+      "메타-창작",
+      "메타 창작",
+      "메타창작"
+    ]
+  },
+  {
+    "id": "sg-034",
+    "subject": "sg",
+    "chapter": "3주차 · 신경망과 생성 모델",
+    "source": "반도체와 생성형 AI 디자인_3주차 3차시.pdf",
+    "page": 8,
+    "type": "mc",
+    "question": "AI 시대의 창작자 유형 중 'AI 생성물을 선별, 편집, 재구성하는 창작자'는?",
+    "answer": "큐레이터형 창작자",
+    "options": [
+      "큐레이터형 창작자",
+      "데이터 조각가",
+      "프롬프트 엔지니어",
+      "퍼포먼스 디렉터"
+    ],
+    "explanation": "데이터 조각가는 생성 모델을 위한 데이터셋을 설계하고, 프롬프트 엔지니어는 정교한 프롬프트를 설계하며, 퍼포먼스 디렉터는 실시간 협업을 연출합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-035",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 1차시.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "2진법으로 동작하는 컴퓨터에서 0 또는 1을 표현하는 스위치 역할을 하는 소자는?",
+    "answer": "트랜지스터",
+    "options": [
+      "트랜지스터",
+      "저항",
+      "배터리",
+      "실리콘 잉곳"
+    ],
+    "explanation": "웨이퍼 한 장에 수십조 개의 트랜지스터를 만들고, 이를 기반으로 CPU·DRAM 같은 반도체 칩을 만듭니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-036",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 1차시.pdf",
+    "page": 11,
+    "type": "mc",
+    "question": "반도체 웨이퍼가 만들어지는 순서로 알맞은 것은?",
+    "answer": "모래 → 실리콘(Si) 잉곳 → 실리콘 웨이퍼",
+    "options": [
+      "모래 → 실리콘(Si) 잉곳 → 실리콘 웨이퍼",
+      "실리콘 웨이퍼 → 모래 → 잉곳",
+      "잉곳 → 모래 → 웨이퍼",
+      "모래 → 웨이퍼 → 잉곳"
+    ],
+    "explanation": "모래에서 얻은 실리콘으로 잉곳을 만들고, 이를 얇게 잘라 웨이퍼를 만듭니다. 그 위에 트랜지스터를 새겨 가치를 만듭니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-037",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 1차시.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "그래프의 축 눈금이 10, 100, 1,000, 10,000처럼 일정한 비율(등비)로 늘어난다면 어떤 스케일인가요?",
+    "answer": "로그 스케일 (Log scale)",
+    "options": [
+      "로그 스케일 (Log scale)",
+      "선형 스케일 (Linear scale)",
+      "정규화 스케일",
+      "백분율 스케일"
+    ],
+    "explanation": "눈금 간격이 등차면 선형 스케일, 등비면 로그 스케일입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-038",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 1차시.pdf",
+    "page": 15,
+    "type": "ox",
+    "question": "선형 스케일 그래프에서는 값이 크게 변하는 데이터의 초기 작은 값들도 한눈에 알아보기 쉽습니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "선형 스케일에서는 큰 값에 묻혀 2017년 이전 같은 작은 값이 잘 보이지 않습니다. 로그 스케일에서는 작은 값도 한눈에 볼 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-039",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 1차시.pdf",
+    "page": 17,
+    "type": "short",
+    "question": "y = 10ˣ의 양변에 상용로그를 취하면 어떤 식이 되나요? (로그 스케일에서 직선이 되는 이유)",
+    "answer": "log10 y = x / log y = x / logy=x / log₁₀y = x",
+    "options": [],
+    "explanation": "log₁₀y = x가 되므로 세로축을 로그 스케일로 그리면 기하급수적인 증가가 직선으로 보입니다.",
+    "aliases": [
+      "log10 y = x",
+      "log y = x",
+      "logy=x",
+      "log₁₀y = x"
+    ]
+  },
+  {
+    "id": "sg-040",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 3,
+    "type": "mc",
+    "question": "일반적으로 알려진 무어의 법칙의 내용은?",
+    "answer": "약 2년마다 반도체 칩의 트랜지스터 수가 2배로 늘어난다",
+    "options": [
+      "약 2년마다 반도체 칩의 트랜지스터 수가 2배로 늘어난다",
+      "약 2년마다 칩의 전력 소비가 2배로 늘어난다",
+      "약 10년마다 트랜지스터 수가 절반이 된다",
+      "매년 GPU 가격이 2배로 오른다"
+    ],
+    "explanation": "강의는 여기에 더해 '약 2년에 가격이 절반'이 되는 효과가 50년간 이어진 점을 핵심으로 강조합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-041",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 6,
+    "type": "ox",
+    "question": "강의에서는 무어의 법칙의 핵심을 '약 2년에 가격이 절반이 된다는 것'이라고 설명합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "트랜지스터 수가 2배가 되는 관찰 자체보다, 이 추세가 50년간 지속되며 가격에 영향을 미쳐 온 점이 더 중요하다고 설명합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-042",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 5,
+    "type": "ox",
+    "question": "강의 자료에 따르면 1GB당 DRAM 가격(2020년 달러 가치 환산)은 10년 동안 약 1/100로 하락했습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "DRAM은 25년 동안 압도적인 가성비 제품이 되었습니다. 무어의 법칙이 가격에 미친 영향을 보여 주는 예입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-043",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 8,
+    "type": "mc",
+    "question": "반도체 기업이 가격을 낮춰도 이익이 늘어날 수 있었던 '미세 공정'의 원리로 알맞은 것은?",
+    "answer": "트랜지스터를 작게 만들어 웨이퍼 한 장에 더 많이 만들면, 웨이퍼 비용은 같아도 트랜지스터당 가격이 떨어진다",
+    "options": [
+      "트랜지스터를 작게 만들어 웨이퍼 한 장에 더 많이 만들면, 웨이퍼 비용은 같아도 트랜지스터당 가격이 떨어진다",
+      "웨이퍼를 크게 만들수록 트랜지스터 크기도 커진다",
+      "트랜지스터 수를 줄여 원가를 낮춘다",
+      "칩의 판매 가격을 매년 2배로 올린다"
+    ],
+    "explanation": "작게 → 웨이퍼당 개수 증가 → 웨이퍼 한 장의 비용은 동일 → 트랜지스터당 가격 하락. 그래서 싸게 팔아도 이익이 늘었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-044",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 11,
+    "type": "mc",
+    "question": "무어의 법칙이 반도체에는 적용되지만 자동차 엔진에는 적용되기 어려운 이유는?",
+    "answer": "엔진은 '기호'가 아니라 최소한의 물리적 크기가 있어야 동작하기 때문",
+    "options": [
+      "엔진은 '기호'가 아니라 최소한의 물리적 크기가 있어야 동작하기 때문",
+      "엔진은 실리콘으로 만들 수 없기 때문",
+      "자동차는 2진법으로 동작하기 때문",
+      "엔진은 크게 만들수록 비싸기 때문"
+    ],
+    "explanation": "컴퓨터는 1/0 '기호'만 잘 표현하면 되므로 트랜지스터를 작게 만들어도 기능이 훼손되지 않습니다. 그래서 집적도를 계속 높일 수 있었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-045",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 11,
+    "type": "ox",
+    "question": "트랜지스터를 작게 만들면 1/0 기호의 특징이 훼손되므로 집적도를 높이는 데 한계가 생긴다는 것이 무어의 법칙의 원리입니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "강의는 반대로 설명합니다. 트랜지스터를 작게 만든다고 '기호' 특징이 훼손되지 않기 때문에 작게 만들기(집적도 향상)가 가능했습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-046",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 2차시.pdf",
+    "page": 12,
+    "type": "mc",
+    "question": "강의에서 제3차 산업혁명을 일으킨 변화로 설명한 것은?",
+    "answer": "트랜지스터 1개, 1bit 저장 가격이 공짜나 다름없게 된 것",
+    "options": [
+      "트랜지스터 1개, 1bit 저장 가격이 공짜나 다름없게 된 것",
+      "증기기관의 발명",
+      "AI의 '지능'이 공짜와 다름없게 된 것",
+      "전기의 보급"
+    ],
+    "explanation": "트랜지스터와 저장 비용이 거의 0에 가까워지며 생활 형태가 바뀌었습니다. 강의는 '지능'이 공짜에 가까워지는 것을 제4차 산업혁명의 질문으로 던집니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-047",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 3차시.pdf",
+    "page": 6,
+    "type": "mc",
+    "question": "강의에서 제시한 AI 기술 발전의 3요소가 아닌 것은?",
+    "answer": "저작권",
+    "options": [
+      "저작권",
+      "데이터",
+      "알고리즘",
+      "컴퓨팅 파워"
+    ],
+    "explanation": "AI 발전의 3요소는 데이터, 알고리즘, 컴퓨팅 파워입니다. 이 중 컴퓨팅 파워는 트랜지스터 개수에 의존합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-048",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 3차시.pdf",
+    "page": 6,
+    "type": "short",
+    "question": "AI 발전의 3요소 중 트랜지스터 개수에 의존해 무어의 법칙과 직접 연결되는 요소는?",
+    "answer": "컴퓨팅 파워 / 컴퓨팅파워 / Computing Power / 연산력",
+    "options": [],
+    "explanation": "무어의 법칙이 동작하며 컴퓨팅 파워가 늘어나 AI 발전의 토대가 되었습니다.",
+    "aliases": [
+      "컴퓨팅 파워",
+      "컴퓨팅파워",
+      "Computing Power",
+      "연산력"
+    ]
+  },
+  {
+    "id": "sg-049",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 3차시.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "강의 자료의 GPT 계열 토큰 가격 그래프(2023.3~2024.8)가 보여 주는 추세는?",
+    "answer": "약 2년에 가격이 1/100 수준으로 하락",
+    "options": [
+      "약 2년에 가격이 1/100 수준으로 하락",
+      "약 2년에 가격이 2배로 상승",
+      "가격이 매년 일정하게 유지",
+      "약 10년에 가격이 절반으로 하락"
+    ],
+    "explanation": "GPT-4는 100만 토큰당 36달러, GPT-4o mini는 0.25달러로 제시됩니다. 한국어 기준 100만 토큰은 책 한 권 정도입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-050",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 3차시.pdf",
+    "page": 11,
+    "type": "mc",
+    "question": "AI 연구에 GPU가 본격적으로 쓰이게 된 계기로 강의에서 소개한 내용은?",
+    "answer": "2013년 엔비디아 GPU 12개가 CPU 16,000개를 대신할 수 있음이 증명됨",
+    "options": [
+      "2013년 엔비디아 GPU 12개가 CPU 16,000개를 대신할 수 있음이 증명됨",
+      "2006년 GPU 1개가 슈퍼컴퓨터를 대체함",
+      "2020년 CPU가 GPU보다 병렬 연산에 강하다는 것이 밝혀짐",
+      "2016년 알파고가 CPU만으로 학습됨"
+    ],
+    "explanation": "2012년 앤드류 응의 고양이 구별 실험에는 CPU 16,000개가 쓰였고, 2013년 GPU 12개로 대신할 수 있음이 증명되었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-051",
+    "subject": "sg",
+    "chapter": "4주차 · 트랜지스터와 무어의 법칙",
+    "source": "반도체와 생성형 AI 디자인_4주차 3차시.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "강의 자료의 그래프에 따르면 2012년 이후 주요 AI 학습에 쓰인 컴퓨팅 양은 대략 얼마마다 2배씩 늘었나요?",
+    "answer": "약 3.4개월",
+    "options": [
+      "약 3.4개월",
+      "약 2년",
+      "약 10년",
+      "약 1주일"
+    ],
+    "explanation": "약 2년마다 2배인 무어의 법칙보다 훨씬 빠른 속도로 AI 학습 컴퓨팅이 늘었습니다. CPU의 무어의 법칙은 한계에 이르렀고 GPU가 Beyond Moore를 이끈다고 설명합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-052",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "문장이나 이미지를 구성하는 최소 단위로, '나는 사과를 좋아한다'를 [나, 는, 사과, 를, 좋아, 한다]로 나눈 조각을 무엇이라 하나요?",
+    "answer": "토큰 (Token)",
+    "options": [
+      "토큰 (Token)",
+      "시드 (Seed)",
+      "임베딩 (Embedding)",
+      "파라미터 (Parameter)"
+    ],
+    "explanation": "AI는 토큰을 순서대로 조합해 결과물을 만들고, 상업용 API 비용도 입력·출력 토큰 수로 계산됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-053",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 8,
+    "type": "mc",
+    "question": "생성형 AI에서 주사위 던지기에 비유되는 시드(Seed)의 특징은?",
+    "answer": "같은 시드 값을 넣으면 언제든 동일한 결과가 나온다",
+    "options": [
+      "같은 시드 값을 넣으면 언제든 동일한 결과가 나온다",
+      "시드가 클수록 이미지 해상도가 높아진다",
+      "시드는 프롬프트를 번역하는 값이다",
+      "시드를 바꿔도 결과는 항상 같다"
+    ],
+    "explanation": "시드는 생성의 출발점입니다. 같은 프롬프트라도 시드가 다르면 결과가 달라지고, 같은 시드면 결과를 재현할 수 있습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-054",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "관찰되지 않는 데이터의 숨겨진 구조적 특징을 나타내며, 얼굴 생성 시 눈·코·입 위치 같은 속성을 결정하는 것은?",
+    "answer": "잠재 변수 (Latent Variable)",
+    "options": [
+      "잠재 변수 (Latent Variable)",
+      "토큰 (Token)",
+      "온도 (Temperature)",
+      "학습률 (Learning Rate)"
+    ],
+    "explanation": "잠재 변수는 데이터의 복잡한 분포를 단순화하며, VAE와 Diffusion 같은 생성 모델의 핵심 개념입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-055",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 13,
+    "type": "mc",
+    "question": "사전 학습된 기본 모델을 특정 작업이나 도메인에 맞게 적은 양의 데이터로 추가 학습시키는 과정은?",
+    "answer": "파인튜닝 (Fine-tuning)",
+    "options": [
+      "파인튜닝 (Fine-tuning)",
+      "프롬프트 엔지니어링",
+      "토큰화",
+      "시드 고정"
+    ],
+    "explanation": "대량 데이터로 사전 학습(Pretraining)한 기본 모델을 적은 데이터로 파인튜닝해 특정 분야에 특화된 모델을 만듭니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-056",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 14,
+    "type": "short",
+    "question": "텍스트·이미지 등의 데이터를 고차원 벡터 공간에 매핑해, 의미가 비슷한 데이터가 서로 가깝게 위치하도록 하는 과정은?",
+    "answer": "임베딩 / Embedding / 임베딩(Embedding)",
+    "options": [],
+    "explanation": "임베딩은 검색, 추천, 클러스터링 등에 활용됩니다.",
+    "aliases": [
+      "임베딩",
+      "Embedding",
+      "임베딩(Embedding)"
+    ]
+  },
+  {
+    "id": "sg-057",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 15,
+    "type": "mc",
+    "question": "강의의 Temperature 예시 표에서 가장 낮은 값(0.2)을 권장한 작업은?",
+    "answer": "코드 리팩토링",
+    "options": [
+      "코드 리팩토링",
+      "스토리 작성",
+      "코드 생성",
+      "챗봇"
+    ],
+    "explanation": "예시 값: 코드 리팩토링 0.2, 이메일 파싱 0.3, 챗봇·요약 0.5, 스토리 작성·코드 생성 0.8. 일관성이 중요한 작업일수록 낮게 둡니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-058",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 15,
+    "type": "ox",
+    "question": "Temperature를 높이면 더 예측 가능하고 일관된 결과가, 낮추면 더 다양하고 창의적인 결과가 나옵니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "반대입니다. 낮은 temperature는 일관된 결과를, 높은 temperature는 다양하고 창의적이지만 일관성이 떨어질 수 있는 결과를 냅니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-059",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 16,
+    "type": "mc",
+    "question": "LLM을 '의미를 되새길 필요 없이 확률적 정보에 따라 언어 형식을 꿰맞추는 시스템'이라고 비판한 표현은?",
+    "answer": "확률론적 앵무새 (Stochastic Parrots)",
+    "options": [
+      "확률론적 앵무새 (Stochastic Parrots)",
+      "중국어 방",
+      "튜링 테스트",
+      "블랙박스 앵무새"
+    ],
+    "explanation": "구글 전 윤리위원들의 2021년 논문 '확률론적 앵무새의 위험'은 데이터셋을 신중하게 고르고 문서화할 것을 권장했고, LLM의 환각 문제로 재조명되었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-060",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 17,
+    "type": "ox",
+    "question": "트랜스포머의 핵심은 셀프 어텐션이며, 어텐션 시스템은 RNN보다 GPU 연산 효율이 좋아 학습이 빠릅니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "2017년 구글 논문 'Attention is All You Need'에서 제안되었고, 대부분의 대규모 언어 모델이 트랜스포머를 채용합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-061",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 18,
+    "type": "mc",
+    "question": "강의 설명에 따르면 다음 중 엄밀한 의미의 '파인튜닝'이라고 부르지 않는 경우는?",
+    "answer": "사전 학습 모델로 특징(보틀넥 피처)만 뽑고, 새로 붙인 완전 연결 층만 학습한다",
+    "options": [
+      "사전 학습 모델로 특징(보틀넥 피처)만 뽑고, 새로 붙인 완전 연결 층만 학습한다",
+      "기존에 학습된 레이어에 내 데이터를 추가로 학습시켜 파라미터를 업데이트한다",
+      "사전 학습 모델의 가중치에서 출발해 새 데이터로 미세 조정한다",
+      "특정 도메인 데이터로 기존 모델의 파라미터를 정교하게 조정한다"
+    ],
+    "explanation": "특징을 추출하는 레이어의 파라미터를 업데이트하지 않으면 파인튜닝이 아닙니다. 기존 학습 레이어를 정교하게 추가 학습해야 파인튜닝입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-062",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 20,
+    "type": "mc",
+    "question": "2006년 심층 신뢰 신경망(DBN)으로 딥러닝 시대를 열었고, AI 윤리를 강조하며 2023년 구글을 퇴사한 'AI의 대부'는?",
+    "answer": "제프리 힌튼",
+    "options": [
+      "제프리 힌튼",
+      "얀 르쿤",
+      "앤드류 응",
+      "일리야 수츠케버"
+    ],
+    "explanation": "힌튼은 1986년 오류 역전파 연구에도 참여했습니다. 2018년 튜링상은 힌튼·르쿤·벤지오가 함께 받았습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-063",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 23,
+    "type": "mc",
+    "question": "'코드는 요리사, 데이터는 재료'에 비유하며 성능 향상 대부분이 데이터에서 일어난다고 주장하고, 코세라를 창업한 인물은?",
+    "answer": "앤드류 응",
+    "options": [
+      "앤드류 응",
+      "제프리 힌튼",
+      "요슈아 벤지오",
+      "얀 르쿤"
+    ],
+    "explanation": "앤드류 응은 스탠퍼드 CS229 강의 공개, 구글 브레인 설립 참여, 코세라 창업 등으로 AI 대중화에 기여했습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-064",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 24,
+    "type": "mc",
+    "question": "힌튼과 함께 AlexNet을 설계했고 OpenAI 공동 창립자로 GPT 설계를 주도한 뒤 2024년 SSI를 설립한 인물은?",
+    "answer": "일리야 수츠케버",
+    "options": [
+      "일리야 수츠케버",
+      "앤드류 응",
+      "얀 르쿤",
+      "요슈아 벤지오"
+    ],
+    "explanation": "수츠케버는 힌튼에게 박사과정, 앤드류 응에게 박사 후 과정을 했습니다. AlexNet은 2012년 ILSVRC 이미지 분류에서 우승했습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-065",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 26,
+    "type": "short",
+    "question": "인간이 할 수 있는 어떠한 지적인 업무도 성공적으로 해낼 수 있는 (가상적인) 기계의 지능을 무엇이라 하나요?",
+    "answer": "인공일반지능 / AGI / 범용인공지능 / 범용 인공지능 / 인공 일반 지능",
+    "options": [],
+    "explanation": "AGI(Artificial General Intelligence)는 범용인공지능이라고도 합니다.",
+    "aliases": [
+      "인공일반지능",
+      "AGI",
+      "범용인공지능",
+      "범용 인공지능",
+      "인공 일반 지능"
+    ]
+  },
+  {
+    "id": "sg-066",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 1차시.pdf",
+    "page": 27,
+    "type": "mc",
+    "question": "강의의 AGI 발전 5단계 중 '독립적으로 의사결정과 행동을 수행하며 업무를 자동화'하는 3단계는?",
+    "answer": "자율 AI (Agent)",
+    "options": [
+      "자율 AI (Agent)",
+      "추론 AI (Reasoner)",
+      "혁신 AI (Innovator)",
+      "조직 AI (Organization)"
+    ],
+    "explanation": "1단계 대화형(Chatbot) → 2단계 추론(Reasoner) → 3단계 자율(Agent) → 4단계 혁신(Innovator) → 5단계 조직(Organization)입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-067",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 2차시.pdf",
+    "page": 33,
+    "type": "mc",
+    "question": "여러 개의 특화된 '전문가' 하위 네트워크 중 각 입력에 가장 적합한 것을 동적으로 선택해 효율과 성능을 높이는 아키텍처는?",
+    "answer": "MoE (Mixture of Experts)",
+    "options": [
+      "MoE (Mixture of Experts)",
+      "RLHF",
+      "CNN",
+      "VAE"
+    ],
+    "explanation": "MoE는 모든 파라미터를 매번 쓰지 않고 필요한 전문가만 선택해 계산 효율을 높입니다. 강의에서는 DeepSeek와 함께 소개되었습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-068",
+    "subject": "sg",
+    "chapter": "5주차 · 생성형 AI 핵심 개념",
+    "source": "반도체와 생성형 AI 디자인_5주차 3차시.pdf",
+    "page": 10,
+    "type": "ox",
+    "question": "강의 자료에 따르면 OpenAI GPT-4o의 이미지 생성 기능은 디퓨전(diffusion)에서 자기회귀(autoregressive) 방식으로 바뀌었습니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "Imagen과 DALL-E 2는 디퓨전 기반 모델로 소개되고, GPT-4o 이미지 생성은 자기회귀 방식으로 전환된 사례로 소개됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-069",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 1차시.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "'광범위한 데이터(일반적으로 대규모 자기 지도 학습)로 훈련되어 다양한 다운스트림 작업에 적용될 수 있는 모델'을 뜻하는 용어는?",
+    "answer": "파운데이션 모델 (Foundation Model)",
+    "options": [
+      "파운데이션 모델 (Foundation Model)",
+      "판별 모델 (Discriminative Model)",
+      "전문가 시스템 (Expert System)",
+      "경량화 모델 (Tiny Model)"
+    ],
+    "explanation": "2021년 8월 스탠퍼드 HAI의 CRFM이 만든 용어입니다. BERT, GPT-n, DALL-E, MusicGen 등이 예입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-070",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 1차시.pdf",
+    "page": 4,
+    "type": "ox",
+    "question": "파운데이션 모델은 직접 구축하는 것보다, 이미 있는 모델을 특정 사용 사례에 맞게 조정하거나 그대로 사용하는 것이 훨씬 저렴합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "가장 비싼 파운데이션 모델 구축에는 데이터와 컴퓨팅 비용이 수억 달러 들 수 있지만, 기존 모델을 조정해 쓰는 비용은 훨씬 적습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-071",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 1차시.pdf",
+    "page": 8,
+    "type": "mc",
+    "question": "강의에서 Midjourney와 함께 소개된 인스턴트 메시징·VoIP 소셜 플랫폼으로, '서버'라는 가상 커뮤니티를 지원하는 것은?",
+    "answer": "디스코드 (Discord)",
+    "options": [
+      "디스코드 (Discord)",
+      "카카오톡",
+      "슬랙 (Slack)",
+      "텔레그램"
+    ],
+    "explanation": "디스코드는 '서버'라고 불리는 가상 커뮤니티에서 음성·영상·문자 소통을 지원합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-072",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 1차시.pdf",
+    "page": 11,
+    "type": "ox",
+    "question": "강의 자료에 따르면 대부분의 국가에서는 AI를 저작권자로 인정하는 의견이 지배적입니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "대부분의 국가에서 저작자는 자연인인 사람으로 해석되며, AI를 저작권자로 인정하기 어렵다는 의견이 지배적입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-073",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 1차시.pdf",
+    "page": 11,
+    "type": "short",
+    "question": "강의 자료에서 프랑스 음악저작권협회(SACEM)가 저작물을 인정한 최초의 가상 아티스트로 소개된 AI는?",
+    "answer": "아이바 / AIVA / 에이바",
+    "options": [],
+    "explanation": "현재 전 세계에서 AI 저작물이 인정된 사례로 소개된 것은 가상 아티스트 아이바(AIVA)의 저작물뿐입니다.",
+    "aliases": [
+      "아이바",
+      "AIVA",
+      "에이바"
+    ]
+  },
+  {
+    "id": "sg-074",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "Diffusion 모델의 전파 과정(Forward Process)에 대한 설명으로 알맞은 것은?",
+    "answer": "원본 이미지에 노이즈를 단계적으로 추가해 거의 순수한 노이즈 상태로 만든다",
+    "options": [
+      "원본 이미지에 노이즈를 단계적으로 추가해 거의 순수한 노이즈 상태로 만든다",
+      "순수한 노이즈에서 노이즈를 제거해 이미지를 만든다",
+      "텍스트를 이미지 토큰으로 번역한다",
+      "생성자와 판별자가 경쟁한다"
+    ],
+    "explanation": "전파 과정은 완전히 알려진 확률적 과정이고, 노이즈를 제거하는 역전 과정(Reverse Process)이 모델이 학습해야 하는 부분입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-075",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 14,
+    "type": "ox",
+    "question": "Diffusion 모델에서 모델이 학습해야 하는 복잡한 부분은 노이즈를 추가하는 전파 과정입니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "모델이 학습하는 것은 텍스트 같은 조건을 바탕으로 노이즈를 점차 제거하는 역전 과정입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-076",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 16,
+    "type": "mc",
+    "question": "Stable Diffusion에서 다른 설정을 그대로 두고 같은 seed 값을 사용하면 어떻게 되나요?",
+    "answer": "완전히 동일한 이미지를 다시 생성할 수 있다(재현성)",
+    "options": [
+      "완전히 동일한 이미지를 다시 생성할 수 있다(재현성)",
+      "항상 더 높은 해상도로 생성된다",
+      "프롬프트가 무시된다",
+      "매번 전혀 다른 이미지가 생성된다"
+    ],
+    "explanation": "seed는 난수 생성기의 초기값입니다. 같은 seed는 재현성을, 다른 seed는 다양성을 줍니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-077",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 17,
+    "type": "mc",
+    "question": "Sampling Steps 값을 높였을 때 일반적으로 나타나는 결과는?",
+    "answer": "더 세밀하고 정교해질 가능성이 높지만 계산 시간이 더 걸린다",
+    "options": [
+      "더 세밀하고 정교해질 가능성이 높지만 계산 시간이 더 걸린다",
+      "생성은 빨라지지만 디테일이 줄어든다",
+      "프롬프트를 덜 엄격하게 따른다",
+      "같은 seed여도 다른 이미지가 나온다"
+    ],
+    "explanation": "스텝은 노이즈를 점진적으로 제거하는 단계 수입니다. 품질과 생성 시간 사이에서 균형을 찾아야 합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-078",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 18,
+    "type": "short",
+    "question": "Stable Diffusion에서 생성 이미지가 텍스트 프롬프트를 얼마나 엄격하게 따를지 정하는 매개변수는?",
+    "answer": "CFG Scale / CFG / 가이던스 / Classifier-Free Guidance / CFG 스케일",
+    "options": [],
+    "explanation": "CFG Scale이 높으면 프롬프트를 엄격하게, 낮으면 더 자유롭고 예측하기 어렵게 생성합니다.",
+    "aliases": [
+      "CFG Scale",
+      "CFG",
+      "가이던스",
+      "Classifier-Free Guidance",
+      "CFG 스케일"
+    ]
+  },
+  {
+    "id": "sg-079",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 18,
+    "type": "ox",
+    "question": "CFG Scale을 높이면 생성 이미지가 텍스트 프롬프트를 더 엄격하게 따릅니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "높은 CFG는 프롬프트의 세부를 정확히 반영하고, 낮은 CFG는 더 자유롭고 예측하기 어려운 결과를 냅니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-080",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 22,
+    "type": "mc",
+    "question": "Stable Diffusion에서 각 디퓨전 단계마다 노이즈를 얼마나 제거할지 결정하며, DDIM·PNDM·K-LMS 등의 종류가 있는 요소는?",
+    "answer": "스케줄러 (Scheduler)",
+    "options": [
+      "스케줄러 (Scheduler)",
+      "시드 (Seed)",
+      "임베딩 (Embedding)",
+      "토크나이저 (Tokenizer)"
+    ],
+    "explanation": "스케줄러는 생성 속도, 이미지 품질, 세부 묘사, 다양성에 영향을 줍니다. 샘플러는 잠재 공간에서 노이즈를 제거해 최종 이미지를 만드는 알고리즘입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-081",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 2차시.pdf",
+    "page": 23,
+    "type": "mc",
+    "question": "Denoising Strength를 0.8 이상으로 높게 설정했을 때의 결과로 알맞은 것은?",
+    "answer": "대부분의 노이즈가 제거되어 더 세밀하고 현실적이지만, 너무 높으면 과도하게 처리될 수 있다",
+    "options": [
+      "대부분의 노이즈가 제거되어 더 세밀하고 현실적이지만, 너무 높으면 과도하게 처리될 수 있다",
+      "노이즈가 대부분 남아 추상적이고 환상적인 모습이 된다",
+      "생성 과정이 0단계로 줄어든다",
+      "프롬프트가 무시된다"
+    ],
+    "explanation": "Denoising Strength는 0~1 사이 값입니다. 낮으면(0.2 이하) 추상적, 중간(0.5)은 균형, 높으면 세밀하고 구체적입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-082",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 3차시.pdf",
+    "page": 4,
+    "type": "mc",
+    "question": "코드를 작성하지 않고 그래프·노드·플로우차트 기반 인터페이스로 Stable Diffusion 작업 흐름을 설계하고 실행하는 도구는?",
+    "answer": "ComfyUI",
+    "options": [
+      "ComfyUI",
+      "Midjourney",
+      "Discord",
+      "LM Studio"
+    ],
+    "explanation": "ComfyUI는 Stable Diffusion을 위한 모듈식 GUI 및 백엔드입니다. 2주차의 Visual Blocks처럼 노드 기반 방식입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-083",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 3차시.pdf",
+    "page": 14,
+    "type": "mc",
+    "question": "MIT 연구진의 DMD(분포 매칭 증류) 프레임워크에 대한 설명으로 알맞은 것은?",
+    "answer": "확산 모델의 다단계 생성 과정을 단일 단계로 압축해 생성 속도를 크게 높였다",
+    "options": [
+      "확산 모델의 다단계 생성 과정을 단일 단계로 압축해 생성 속도를 크게 높였다",
+      "GAN을 버리고 RNN만으로 이미지를 생성했다",
+      "생성 단계를 30~50단계에서 수천 단계로 늘렸다",
+      "이미지 해상도를 낮추는 대신 품질을 포기했다"
+    ],
+    "explanation": "DMD는 확산 모델의 샘플 품질과 GAN의 속도를 결합해 확산 모델 기반 이미지 생성 속도를 약 30배 높였다고 소개됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-084",
+    "subject": "sg",
+    "chapter": "6주차 · 이미지 생성 실전",
+    "source": "반도체와 생성형 AI 디자인_6주차 3차시.pdf",
+    "page": 21,
+    "type": "mc",
+    "question": "강의에서 제시한 생성형 AI 이미지 한계의 해결 방법으로 알맞은 것은?",
+    "answer": "네거티브 프롬프트로 원치 않는 요소를 제거한다",
+    "options": [
+      "네거티브 프롬프트로 원치 않는 요소를 제거한다",
+      "AI가 만든 이미지는 출처를 밝히지 않는다",
+      "저작권이 불분명한 데이터를 더 많이 쓴다",
+      "후처리 없이 첫 결과물을 그대로 사용한다"
+    ],
+    "explanation": "AI로 초안을 만들고 사람이 완성, 구체적인 프롬프트·네거티브 프롬프트, 투명한 출처 표시, 파인튜닝 모델 활용 등을 제시합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-085",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "폰 노이만 아키텍처에서 CPU와 DRAM(메모리) 사이에 데이터를 전송하는 통로는?",
+    "answer": "버스 (Bus)",
+    "options": [
+      "버스 (Bus)",
+      "레지스터 (Register)",
+      "산술연산장치 (ALU)",
+      "캐시 (Cache)"
+    ],
+    "explanation": "CPU 안에는 레지스터, ALU, 캐시가 있고 CPU와 DRAM은 버스로 데이터를 주고받습니다. Bus, Band, Bandwidth에 익숙해지자고 강조합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-086",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 6,
+    "type": "ox",
+    "question": "DRAM은 전원이 꺼져도 데이터가 유지되는 비휘발성 메모리입니다.",
+    "answer": "X",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "DRAM은 전원이 꺼지면 데이터가 사라지는 휘발성 메모리입니다. 비휘발성 저장은 NAND Flash의 역할입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-087",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "비휘발성 메모리로, 속도는 느리지만 아주 큰 용량을 저렴하게 제공하며 DRAM의 데이터를 영구 저장하는 것은?",
+    "answer": "NAND Flash",
+    "options": [
+      "NAND Flash",
+      "SRAM",
+      "DRAM",
+      "레지스터"
+    ],
+    "explanation": "NAND Flash는 스토리지 역할을 합니다. SRAM은 가장 빠르고 비싸며, DRAM은 적당한 속도와 용량을 가집니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-088",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 9,
+    "type": "mc",
+    "question": "강의에서 설명한 GPU의 역할로 알맞은 것은?",
+    "answer": "디스플레이 출력 등 병렬 연산이 필요할 때 CPU 대신 연산하며, 별도의 VRAM을 사용한다",
+    "options": [
+      "디스플레이 출력 등 병렬 연산이 필요할 때 CPU 대신 연산하며, 별도의 VRAM을 사용한다",
+      "전원이 꺼져도 데이터를 영구 저장한다",
+      "컴퓨터의 모든 제어를 담당하며 없으면 부팅할 수 없다",
+      "CPU에 가장 가까운 캐시 메모리 역할을 한다"
+    ],
+    "explanation": "GPU는 없어도 컴퓨터의 기본 기능에는 영향이 없지만 병렬 연산을 맡습니다. 엔비디아는 이를 '가속 컴퓨팅'이라 부릅니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-089",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 10,
+    "type": "mc",
+    "question": "CPU에 가장 가까운 캐시 메모리로, 아주 빠르지만 용량이 작고 비싸서 CPU 면적의 30% 가까이를 차지하기도 하는 메모리는?",
+    "answer": "SRAM",
+    "options": [
+      "SRAM",
+      "DRAM",
+      "NAND Flash",
+      "HBM"
+    ],
+    "explanation": "L3 캐시 기준 약 10MB 수준의 작은 용량이며, 최신 공정에서 CPU 면적의 큰 비중을 차지합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-090",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 11,
+    "type": "short",
+    "question": "기술 발전으로 연산(CPU)과 메모리(DRAM)의 속도는 빨라지는데 버스의 속도가 정체되어 생기는 컴퓨팅 속도의 주된 한계는?",
+    "answer": "폰 노이만 병목 / 폰노이만 병목 / 폰 노이만 보틀넥 / von Neumann bottleneck",
+    "options": [],
+    "explanation": "폰 노이만 병목(Bottleneck)은 데이터를 주고받는 통로가 전체 속도를 제한하는 현상입니다. 7주차 3차시의 메모리 월(Memory Wall)로 이어집니다.",
+    "aliases": [
+      "폰 노이만 병목",
+      "폰노이만 병목",
+      "폰 노이만 보틀넥",
+      "von Neumann bottleneck"
+    ]
+  },
+  {
+    "id": "sg-091",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 12,
+    "type": "mc",
+    "question": "메모리 계층 구조를 공부할 때의 비유에서 '비교적 빨리 참고할 수 있고 적당히 많은 양을 보관하는 거실 책장'에 해당하는 것은?",
+    "answer": "DRAM",
+    "options": [
+      "DRAM",
+      "SRAM",
+      "NAND Flash",
+      "레지스터"
+    ],
+    "explanation": "책상 위 책·노트는 SRAM, 거실 책장은 DRAM, 도서관은 NAND Flash에 비유됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-092",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 1차시.pdf",
+    "page": 13,
+    "type": "ox",
+    "question": "메모리 계층 구조에서 CPU에 가까운 위쪽일수록 속도가 빠르고, 아래쪽일수록 가격이 싸집니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "Cache(SRAM) → 메모리(DRAM) → 스토리지(NAND Flash) 순으로 내려갈수록 느리지만 싸고 용량이 큽니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-093",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 2차시.pdf",
+    "page": 5,
+    "type": "short",
+    "question": "입력 뉴런 4개, 은닉 뉴런 5개, 출력 뉴런 1개가 층마다 모두 연결된 신경망의 시냅스(파라미터) 수는? (편향 제외, 숫자)",
+    "answer": "25 / 25개",
+    "options": [],
+    "explanation": "4×5 + 5×1 = 20 + 5 = 25입니다. 신경망 학습은 시냅스 연결 강도를 정하는 과정입니다.",
+    "aliases": [
+      "25",
+      "25개"
+    ]
+  },
+  {
+    "id": "sg-094",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 2차시.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "대규모 모델에서는 작은 모델에 없던 능력이 갑자기 나타나는 현상을 무엇이라 하나요?",
+    "answer": "창발성 (Emergent Ability)",
+    "options": [
+      "창발성 (Emergent Ability)",
+      "기울기 소실",
+      "과적합",
+      "친칠라 스케일링"
+    ],
+    "explanation": "친칠라 스케일링은 효율적인 파라미터 수와 데이터 토큰 수의 비율을 찾는 법칙입니다. 창발성 때문에 파라미터를 늘리면 더 똑똑해질지 묻게 됩니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-095",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 2차시.pdf",
+    "page": 9,
+    "type": "short",
+    "question": "강의 기준(파라미터 1B당 약 1GB)으로 파라미터가 150B인 GPT-3를 구동하려면 메모리가 약 몇 GB 필요한가요? (숫자)",
+    "answer": "150 / 150GB / 약 150GB",
+    "options": [],
+    "explanation": "강의에서 GPT-3(약 150B)는 약 150GB, GPT-4(1T 수준)는 1000GB 수준의 메모리가 필요하다고 설명합니다.",
+    "aliases": [
+      "150",
+      "150GB",
+      "약 150GB"
+    ]
+  },
+  {
+    "id": "sg-096",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 2차시.pdf",
+    "page": 10,
+    "type": "mc",
+    "question": "노트북·스마트폰에서 GPT-3급 AI를 직접 돌리기 어려운 이유로 강의에서 제시한 것은?",
+    "answer": "노트북 메모리는 많아야 64GB, 스마트폰은 16GB라 필요한 메모리 용량이 부족하다",
+    "options": [
+      "노트북 메모리는 많아야 64GB, 스마트폰은 16GB라 필요한 메모리 용량이 부족하다",
+      "스마트폰에는 트랜지스터가 없다",
+      "GPT-3는 인터넷 없이는 실행될 수 없도록 법으로 정해져 있다",
+      "노트북 CPU는 2진법을 사용하지 않는다"
+    ],
+    "explanation": "경량화 모델은 쓸 수 있지만 최선의 지능을 제공하지는 못합니다. 그래서 우리는 AI 데이터센터와 통신하며 서비스를 사용합니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-097",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 3차시.pdf",
+    "page": 5,
+    "type": "mc",
+    "question": "대규모 언어 모델 학습에서 비싼 H100 같은 GPU가 필요한 이유로 강의가 강조한 개념은?",
+    "answer": "메모리 대역폭 (시간당 데이터 전송량)",
+    "options": [
+      "메모리 대역폭 (시간당 데이터 전송량)",
+      "클럭 속도만 높이면 해결된다",
+      "저장 용량이 큰 NAND Flash",
+      "디스플레이 해상도"
+    ],
+    "explanation": "LLM 학습은 대규모 행렬 계산이 필요하고, GPU 관점의 병목은 시간당 데이터 전송량입니다. 고사양 게임에서는 덜 중요했던 개념입니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-098",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 3차시.pdf",
+    "page": 7,
+    "type": "mc",
+    "question": "기존 DRAM과 비교한 HBM(고대역폭 메모리)의 발전 방향을 엘리베이터에 비유한 것으로 알맞은 것은?",
+    "answer": "엘리베이터 대수를 32대에서 1,024대로 늘린다 (데이터 I/O 개수 증가)",
+    "options": [
+      "엘리베이터 대수를 32대에서 1,024대로 늘린다 (데이터 I/O 개수 증가)",
+      "엘리베이터 32대의 속도를 2배로 높인다",
+      "엘리베이터를 없애고 계단만 쓴다",
+      "건물의 층수를 줄인다"
+    ],
+    "explanation": "기존 DRAM은 입출력 속도를 높이는 데, HBM은 I/O 개수를 늘리는 데 집중했습니다.",
+    "aliases": []
+  },
+  {
+    "id": "sg-099",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 3차시.pdf",
+    "page": 8,
+    "type": "short",
+    "question": "HBM에서 실리콘을 관통하는 구멍을 뚫어 I/O 개수를 늘리는 핵심 기술의 영문 약어는?",
+    "answer": "TSV / Through Silicon Via / 실리콘 관통 전극",
+    "options": [],
+    "explanation": "TSV(Through Silicon Via) 1개가 I/O 1개가 됩니다. 또한 DRAM을 8층·12층으로 적층해 용량을 늘립니다.",
+    "aliases": [
+      "TSV",
+      "Through Silicon Via",
+      "실리콘 관통 전극"
+    ]
+  },
+  {
+    "id": "sg-100",
+    "subject": "sg",
+    "chapter": "7주차 · 메모리 반도체",
+    "source": "반도체와 생성형 AI 디자인_7주차 3차시.pdf",
+    "page": 12,
+    "type": "ox",
+    "question": "메모리 월(Memory Wall)은 GPU의 연산 속도보다 데이터 전송 속도가 병목이 되는 문제를 말합니다.",
+    "answer": "O",
+    "options": [
+      "O",
+      "X"
+    ],
+    "explanation": "HBM을 만들고 있지만 여전히 폰 노이만 병목이 가장 큰 문제이며, 연산보다 데이터 전송이 전체 속도를 제한합니다.",
+    "aliases": []
   }
 ]
